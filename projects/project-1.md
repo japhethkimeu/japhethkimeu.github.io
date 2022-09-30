@@ -26,7 +26,7 @@ There are various indices used in drought monitoring; precipitation index, tempe
 Results show that almost half of the year 2010 Somalia experienced prolonged drought with October, November, and December months experiencing severe to extreme drought while January, February and march experienced moderate to severe drought. 
 
 
-Source: <a href="https://github.com/japhethkimeu/droughtmonitoring"><i class="large github icon"></i>soilmapping</a>
+Source: <a href="https://github.com/japhethkimeu/droughtmonitoring"><i class="large github icon"></i>droughtmonitoring</a>
 
 More about combined drought index [here](https://cdi.faoswalim.org/uploads/CDI-Manual.pdf).
 
