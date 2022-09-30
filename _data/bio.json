@@ -1,0 +1,184 @@
+{
+  "basics": {
+    "name": "Nélida Silvero",
+    "label": "PhD",
+    "picture": "https://neli12.github.io/images/perfil_ii.jpeg",
+    "email": "neliquinhonez92@gmail.com",
+    "phone": "",
+    "website": "https://neli12.github.io",
+    "summary": "Hey there! I am Nélida and recently I received my PhD in Soil Science and Plant Nutrition from the University of São Paulo, in Brazil. During my graduate years, I worked with digital soil mapping, remote sensing and soil spectroscopy. I also had the opportunity to be a Visiting Scientist at Iowa State University, in the United States, where I worked with digital mapping of drainage classes. In January 2022, I received the Newton International Fellowship from The Royal Society and I'll join the University of Leeds to work as a Researcher. There, I'll be conducting research with the main aim to understand soil carbon spatio-temporal dynamics in agricultural systems to support decision making under climate change.", 
+    "location": {
+      "address": "",
+      "postalCode": "LS3 1JZ",
+      "city": "Leeds",
+      "countryCode": "UK",
+      "region": "Yorkshire"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "neli12",
+        "url": "http://github.com/neli12"
+      },
+      {
+        "network": "linkedin",
+        "username": "nsilvero",
+        "url": "http://linkedin.com/in/nsilvero"
+      },
+      {
+        "network": "instagram",
+        "username": "neli.silvero",
+        "url": "http://instagram.com/neli.silvero"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "soil science",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "remote sensing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "GIS",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "data science",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "R",
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Softwares",
+      "level": "",
+      "keywords": [
+        "QGIS",
+        "ArcMap",
+        "ArcGIS Pro",
+        "SAGA GIS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of São Paulo (Esalq/USP), Piracicaba-SP, Brazil",
+      "area": "Soil and Plant Nutrition",
+      "studyType": "PhD",
+      "startDate": "2018-08-01",
+      "endDate": "2022-02-03",
+      "gpa": "",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Leeds",
+      "position": "Visiting Research Fellow",
+      "website": "https://environment.leeds.ac.uk/see/staff/11051/dr-nelida-silvero",
+      "startDate": "2022-06-01",
+      "endDate": "Present",
+      "summary": "Team member",
+      "highlights": [
+        "Soil organic carbon monitoring",
+        "Geospatial analysis",
+        "Web-platoforms for MRV protocols",
+        "Soil organic carbon mapping",
+        "Remote sensing"
+      ]
+    },
+    {
+      "company": "Geotechnologies in Soil Science Group - Esalq/USP",
+      "position": "Research Assistant",
+      "website": "https://esalqgeocis.wixsite.com/geocis",
+      "startDate": "2018-08-01",
+      "endDate": "Present",
+      "summary": "Team member",
+      "highlights": [
+        "Use of QGIS, ArcGIS, SAGA GIS for soil mapping",
+        "Work with Google Earth Engine for global mapping",
+        "Use of R and Python with ML approaches",
+        "Write research proposal (Portuguese – English)",
+        "Assist in organization of courses and conferences",
+        "Co-advise young scientists",
+        "Manage teams",
+        "Teach in short courses"
+      ]
+    },
+    {
+      "company": "GeoSpatial Laboratory for Soil Informatics - Iowa State University",
+      "position": "Visiting Scholar",
+      "website": "https://glsi.agron.iastate.edu/",
+      "startDate": "2021-08-01",
+      "endDate": "2022-01-31",
+      "summary": "",
+      "highlights": [
+        "Work with ArcGIS Pro, QGIS and SAGA GIS for soil mapping",
+        "Apply machine learning algorithms",
+        "R language" 
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Acaraymi Indigenous Community",
+      "website": "",
+      "position": "Extensionist",
+      "startDate": "2013-08-01",
+      "endDate": "2013-12-31",
+      "summary": "Teaching",
+      "highlights": [
+        "Design school gardens",
+        "Teach how to grow vegetables"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "GeoCIS award",
+      "date": "2022-02-03",
+      "awarder": "GeoCIS group/ESALQ-USP",
+      "summary": "For her outstanding contributions to the research group GeoCIS."
+    },
+    {
+      "title": "PhD Studenship",
+      "date": "2016-2022",
+      "awarder": "BECAL-Paraguay",
+      "summary": "Scholarships awarded to young professionals to continue their post-graduate studies abroad in one of the 300 best universities of the world."
+    },
+    {
+      "title": "Best oral presentation",
+      "date": "2013",
+      "awarder": "AUGM",
+      "summary": "I presented my research working with indigenous communities and they awarded me the first place for the best oral presentation."
+    },
+    {
+      "title": "Best essay - Writing Contest Paraguay feeds the world: Suggestions to increase agricultural productivity in your department",
+      "date": "2013",
+      "awarder": "INBIO - Paraguay",
+      "summary": "I wrote an essay proposing some suggestions to improve the management of sesame."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
