@@ -88,13 +88,15 @@
       "website": "http://www.faoswalim.org/",
       "startDate": "2021-09-01",
       "endDate": "Present",
-      "summary": "Team member",
+      "summary": "FAO SWALIM",
       "highlights": [
-        "Land Resources",
-        "Geospatial analysis",
-        "Capacity Development",
-        "Water Resources",
-        "Remote sensing"
+        "Assisting in all activities involving spatial dataset management to support the provision of information to partners, stakeholders and other users.",
+        "Maintaining the SWALIM Geonode and Land resources portal and ensuring they are populated with updated datasets and metadata records that are well documented.",
+        "Assisting in development of GIS web applications such as flood mapping and drought monitoring and other geo-processing tools using Google Earth Engine and Python libraries.",
+        "Participating in natural resource data collection through preparing data collection procedures, designing data collection forms, and evaluating quality of data collected.",
+        "Training staff from line ministries in Somalia on field data collection, GIS data analysis, and map production.",
+        "Assisting in preparation of information for dissemination materials (posters, fact sheets, newsletters, technical reports, feature articles, etc.) and workshop materials.",
+        "Assisting in preparation, review and arrangement of training material (field survey manuals, power point presentations, field practical guides) on natural resources mapping techniques, using SWALIM standard templates and format."
       ]
     },
     {
@@ -104,14 +106,14 @@
       "endDate": "2018-08-21",
       "summary": "Team member",
       "highlights": [
-        "Use of QGIS, ArcGIS, GEE for natural resource mapping",
-        "Work with line ministries in water, land, transport, agriculture in promoting sustainable reosurce use",
-        "Using of R, JavaScript and Python to develop programs for automating workflows",
-        "Prepare reports, maps and charts for sharing information",
-        "Assist in organizing workshops and conferences for engaging stakeholders",
-        "Collaborate with NGO agencies in streamlining natural resource management policies",
-        "Oversee natural resource data collection, analysis and sharing",
-        "Train community and stakeholders on sustainable environmental management"
+        "Represented the County Government of Machakos in sustainable development forums, stakeholder meetings and workshops.",
+        "Worked with line ministries in water, land, transport, agriculture in promoting sustainable resources use",
+        "Using R, JavaScript and Python, I developed programs for automating geospatial analysis workflows",
+        "Prepared reports, maps and charts for information sharing and dissemination",
+        "Assisted in organizing workshops and conferences for engaging stakeholders",
+        "Collaborated with NGO agencies and government bodies such as NLC in streamlining natural resource management policies",
+        "Oversaw natural resource data collection, analysis and sharing",
+        "Trained community members and stakeholders on sustainable environmental management"
       ]
     },
     {
@@ -121,9 +123,10 @@
       "endDate": "2015-12-31",
       "summary": "",
       "highlights": [
-        "Carrying out field surveys to collect spatial data",
-        "Assisting in geospatial data analysis using ERSI products and QGIS",
-        "Drafting plans and maps" 
+        "Gathering and compiling spatial data from various online sources and preparing maps, reports and sketches. ",
+        "Assisted in planning and coordinating carrying out of field survey activities to collect data and establish survey control points and property boundaries. ",
+        "Assisted in verifying survey data and records such as GIS maps, cadastral plans, and sub-division schemes for issuance of title and lease deeds",
+        "Developed, maintained, and updated geo-databases, carrying out spatial analysis using GIS and remote sensing tools. "
       ]
     }
   ],
