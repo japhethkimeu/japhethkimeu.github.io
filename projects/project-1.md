@@ -7,11 +7,11 @@ permalink: projects/soil_mapping
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-25
 labels:
-  - Sentinel-2
-  - Landsat-8
-  - digital soil mapping
-  - R programming
-summary: Digital mapping of soil properties in São Paulo using bare soil images of Sentinel-2 and Landsat-8 images.
+  - drought monitoring
+  - precipation
+  - temperature
+  - Google Earth Engine
+summary: Drought monitoring in Somalia using time-series precipitation and temperature data in Google Earth Engine
 ---
 
 <div class="ui small rounded images">
@@ -27,9 +27,9 @@ I found that, surprisingly, Landsat-8 were better than Sentinel-2 images for map
 
 What are my main conclusion from this research? Well, first of all, bare soil images are powerful tools for soil mapping. Second, the combination of images from different satellites will definitely provide better results when aiming to decipher the spatial patterns of soil in tropical regions.
 
-Source: <a href="https://github.com/neli12/soilmapping"><i class="large github icon"></i>soilmapping</a>
+Source: <a href="https://github.com/japhethkimeu/droughtmonitoring"><i class="large github icon"></i>soilmapping</a>
 
-You can find the research paper [here](https://www.sciencedirect.com/science/article/pii/S0034425720304909?via%3Dihub#f0010).
+ about combined drought index in drought monitoring [here](https://cdi.faoswalim.org/uploads/CDI-Manual.pdf).
 
 
 
