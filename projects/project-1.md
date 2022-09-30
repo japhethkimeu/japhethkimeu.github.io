@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/feb-10.png
+image: images/feb-10-1.png
 title: Drought monitoring using Google Earth Engine
 permalink: projects/drought_monitoring
 # All dates must be YYYY-MM-DD format!
@@ -15,10 +15,10 @@ summary: Drought monitoring in Somalia using time-series precipitation and tempe
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/nov-10.png">
+  <img class="ui image" src="../images/nov-10-1.png">
   
   
-  <img class="ui image" src="../images/feb-10.png">
+  <img class="ui image" src="../images/feb-10-1.png">
 </div>
 
 There are various indices used in drought monitoring; precipitation index, temperature index, vegetation index, and sometimes soil moisture index. In this work, I computed combined drought index  (cdi) using the two commonly used indices, precipitation index (pdi) and temperature index (tdi). I modelled cdi as a sum function of pdi and tdi i.e. cdi=0.7pdi+0.3tdi. With availability of soil moisture index, cdi is computed as the sum of the three indices with precipitation taking 50% while temperature and soil moisture take 25% each. I used time series chirps rainfall data and MODIS land surface temperature data in Google Earth Engine to compute the two indices for the year 2010 from January to December. I then computed the combined drought index in GIS software. 
