@@ -79,6 +79,16 @@
       "gpa": "8/10",
       "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"
       ]
+    },
+    {
+      "institution": "Technical University of Kenya",
+      "area": "Geospatial Engineering",
+      "studyType": "BSc",
+      "startDate": "2011-01-11",
+      "endDate": "2015-12-18",
+      "gpa": "9/10",
+      "courses": ["GIS", "Remote Sensing", "Land Management"
+      ]
     }
   ],
   "work": [
@@ -142,9 +152,7 @@
         "Food security mapping using AI",
         "Crop mapping and identification using AI"
       ]
-    }
-  ],
-  "volunteer": [
+    },
      {
       "organization": "Humanitarian Openstreet Map",
       "website": "",
