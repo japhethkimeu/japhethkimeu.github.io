@@ -1,40 +1,34 @@
 {
   "basics": {
-    "name": "Nélida Silvero",
-    "label": "PhD",
-    "picture": "https://neli12.github.io/images/perfil_ii.jpeg",
-    "email": "neliquinhonez92@gmail.com",
+    "name": "Japheth Kimeu",
+    "label": "GIS and Remote Sensing Consultant",
+    "picture": "https://neli12.github.io/images/kim.png",
+    "email": "kimeujeffer@gmail.com",
     "phone": "",
-    "website": "https://neli12.github.io",
-    "summary": "Hey there! I am Nélida and recently I received my PhD in Soil Science and Plant Nutrition from the University of São Paulo, in Brazil. During my graduate years, I worked with digital soil mapping, remote sensing and soil spectroscopy. I also had the opportunity to be a Visiting Scientist at Iowa State University, in the United States, where I worked with digital mapping of drainage classes. In January 2022, I received the Newton International Fellowship from The Royal Society and I'll join the University of Leeds to work as a Researcher. There, I'll be conducting research with the main aim to understand soil carbon spatio-temporal dynamics in agricultural systems to support decision making under climate change.", 
+    "website": "https://japhethkimeu.github.io",
+    "summary": "I am a geospatial and remote sensing consultant currently working with the Food and Agriculture Organization of the United Nations.", 
     "location": {
-      "address": "",
-      "postalCode": "LS3 1JZ",
-      "city": "Leeds",
-      "countryCode": "UK",
-      "region": "Yorkshire"
+      "address": "30470",
+      "postalCode": "00100",
+      "city": "Nairobi",
+      "countryCode": "Kenya",
     },
     "profiles": [
       {
         "network": "github",
-        "username": "neli12",
-        "url": "http://github.com/neli12"
+        "username": "japhethkimeu",
+        "url": "http://github.com/japhethkimeu"
       },
       {
         "network": "linkedin",
-        "username": "nsilvero",
-        "url": "http://linkedin.com/in/nsilvero"
+        "username": "kimeujapheth",
+        "url": "http://linkedin.com/in/kimeujapheth"
       },
-      {
-        "network": "instagram",
-        "username": "neli.silvero",
-        "url": "http://instagram.com/neli.silvero"
-      }
     ]
   },
   "interests": [
     {
-      "name": "soil science",
+      "name": "machine learning",
       "keywords": [
       ]
     },
@@ -49,7 +43,7 @@
       ]
     },
     {
-      "name": "data science",
+      "name": "big data",
       "keywords": [
       ]
     }
@@ -71,108 +65,93 @@
         "QGIS",
         "ArcMap",
         "ArcGIS Pro",
-        "SAGA GIS"
+        "ERDAS IMAGINE"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of São Paulo (Esalq/USP), Piracicaba-SP, Brazil",
-      "area": "Soil and Plant Nutrition",
-      "studyType": "PhD",
-      "startDate": "2018-08-01",
-      "endDate": "2022-02-03",
-      "gpa": "",
-      "courses": [
+      "institution": "University of Twente, Faculty of Geoinformation Science and Earth Observation",
+      "area": "Geoinformatics",
+      "studyType": "MSc",
+      "startDate": "2018-08-26",
+      "endDate": "2020-07-24",
+      "gpa": "8/10",
+      "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"
       ]
     }
   ],
   "work": [
     {
-      "company": "University of Leeds",
-      "position": "Visiting Research Fellow",
-      "website": "https://environment.leeds.ac.uk/see/staff/11051/dr-nelida-silvero",
-      "startDate": "2022-06-01",
+      "company": "FAO",
+      "position": "GIS and Remote Sensing Consultant",
+      "website": "http://www.faoswalim.org/",
+      "startDate": "2021-09-01",
       "endDate": "Present",
       "summary": "Team member",
       "highlights": [
-        "Soil organic carbon monitoring",
+        "Land Resources",
         "Geospatial analysis",
-        "Web-platoforms for MRV protocols",
-        "Soil organic carbon mapping",
+        "Capacity Development",
+        "Water Resources",
         "Remote sensing"
       ]
     },
     {
-      "company": "Geotechnologies in Soil Science Group - Esalq/USP",
-      "position": "Research Assistant",
-      "website": "https://esalqgeocis.wixsite.com/geocis",
-      "startDate": "2018-08-01",
-      "endDate": "Present",
+      "company": "County Government of Machakos",
+      "position": "Geospatial Engineer",
+      "startDate": "2016-01-11",
+      "endDate": "2018-08-21",
       "summary": "Team member",
       "highlights": [
-        "Use of QGIS, ArcGIS, SAGA GIS for soil mapping",
-        "Work with Google Earth Engine for global mapping",
-        "Use of R and Python with ML approaches",
-        "Write research proposal (Portuguese – English)",
-        "Assist in organization of courses and conferences",
-        "Co-advise young scientists",
-        "Manage teams",
-        "Teach in short courses"
+        "Use of QGIS, ArcGIS, GEE for natural resource mapping",
+        "Work with line ministries in water, land, transport, agriculture in promoting sustainable reosurce use",
+        "Using of R, JavaScript and Python to develop programs for automating workflows",
+        "Prepare reports, maps and charts for sharing information",
+        "Assist in organizing workshops and conferences for engaging stakeholders",
+        "Collaborate with NGO agencies in streamlining natural resource management policies",
+        "Oversee natural resource data collection, analysis and sharing",
+        "Train community and stakeholders on sustainable environmental management"
       ]
     },
     {
-      "company": "GeoSpatial Laboratory for Soil Informatics - Iowa State University",
-      "position": "Visiting Scholar",
-      "website": "https://glsi.agron.iastate.edu/",
-      "startDate": "2021-08-01",
-      "endDate": "2022-01-31",
+      "company": "GeoInfo Surveys Ltd",
+      "position": "GIS Specialist",
+      "startDate": "2015-05-04",
+      "endDate": "2015-12-31",
       "summary": "",
       "highlights": [
-        "Work with ArcGIS Pro, QGIS and SAGA GIS for soil mapping",
-        "Apply machine learning algorithms",
-        "R language" 
+        "Carrying out field surveys to collect spatial data",
+        "Assisting in geospatial data analysis using ERSI products and QGIS",
+        "Drafting plans and maps" 
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Acaraymi Indigenous Community",
+      "organization": "OMDENA",
       "website": "",
-      "position": "Extensionist",
-      "startDate": "2013-08-01",
-      "endDate": "2013-12-31",
-      "summary": "Teaching",
+      "position": "ML Engineer",
+      "startDate": "2010-08-29",
+      "endDate": "Present",
+      "summary": "Collaborator",
       "highlights": [
-        "Design school gardens",
-        "Teach how to grow vegetables"
+        "Food security mapping using AI",
+        "Crop mapping and identification using AI"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "GeoCIS award",
-      "date": "2022-02-03",
-      "awarder": "GeoCIS group/ESALQ-USP",
-      "summary": "For her outstanding contributions to the research group GeoCIS."
-    },
-    {
-      "title": "PhD Studenship",
-      "date": "2016-2022",
-      "awarder": "BECAL-Paraguay",
-      "summary": "Scholarships awarded to young professionals to continue their post-graduate studies abroad in one of the 300 best universities of the world."
-    },
-    {
-      "title": "Best oral presentation",
-      "date": "2013",
-      "awarder": "AUGM",
-      "summary": "I presented my research working with indigenous communities and they awarded me the first place for the best oral presentation."
-    },
-    {
-      "title": "Best essay - Writing Contest Paraguay feeds the world: Suggestions to increase agricultural productivity in your department",
-      "date": "2013",
-      "awarder": "INBIO - Paraguay",
-      "summary": "I wrote an essay proposing some suggestions to improve the management of sesame."
+  "volunteer": [
+     {
+      "organization": "Humanitarian Openstreet Map",
+      "website": "",
+      "position": "Mapper",
+      "startDate": "2021-02-12",
+      "endDate": "Present",
+      "summary": "Collaborator",
+      "highlights": [
+        "Mapping missing maps for Crowd2Map Tanzania"
+      ]
     }
   ],
   "references": [
