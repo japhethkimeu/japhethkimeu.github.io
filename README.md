@@ -1,4 +1,4 @@
-# Technical Portfolio
+# Personal Profile
 
 
 
