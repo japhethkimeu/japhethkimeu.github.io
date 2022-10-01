@@ -1,4 +1,4 @@
-# Persona Profile
+# Personal Profile
 
 
 
