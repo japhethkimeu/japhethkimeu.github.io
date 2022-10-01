@@ -8,7 +8,7 @@ permalink: projects/drought_monitoring
 date: 2022-09-25
 labels:
   - drought monitoring
-  - precipation
+  - precipitation
   - temperature
   - Google Earth Engine
 summary: Drought monitoring in Somalia using time-series precipitation and temperature data in Google Earth Engine
