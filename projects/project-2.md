@@ -2,27 +2,23 @@
 layout: project
 type: project
 image: images/quantumBlack.jpeg
-title: My first Datathon
+title: Gully feature identification using Random Forest
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2021-11-20
+date: 2022-11-15
 labels:
   - Jupyter Notebook
-  - Kaggle
-  - GitHub
-summary: My experience participating in a Dathaton.
+  - Python
+  - Machine Learning
+summary: Random Forest classification of Sentinel 2 images to identify gullies
 ---
 
 <img class="ui medium right floated rounded image" src="../images/quantumBlack.jpeg">
 
-In this example, I will present my experience participating in the Datathon WomanHack promoted by the QuantumBlack, a company from McKinsey.
-
-I confess that at first, I felt nervous because I didn't have so much experience in Python programming and this was my first datathon. Nevertheless, at that time I wanted to participate to gain experience on how a hackaton, or in this case, a datathon works.
-
-The first step was to register for the event and then, the organizing commitee provided access to an app, where we were able to connect with other woman and to form the groups. I match with two incredible girls: Lucía and Angy, from Argentina and Colombia, respectively. The name of our group was Lovelace Squad.
-In the first day, we were introduced each other and the organizers presented the challenge, which consisted of creating a model to predict the probability that a client will visit a store in the next 7 days, assuming that no communication is sent. The description of the challenge can be found on [Kaggle](https://www.kaggle.com/c/marketcohackaton/overview/description).
-
-In this project I gained experience on how a Dathaton works and how to work collaboratively with other people. Although this Dathaton was not related to my main study areas, it was a really wonderful experience!
+The United Nations Convention to Combat Desertification (UNCCD) estimates that two thirds of productive land in Africa is degraded (UNCCD 2013). Soil degradation is one of the major forms of land degradation and occurs through water erosion, wind erosion, chemical and physical deterioration. According to Jones et al. (2013), water erosion accounts for forty six percent of land degradation in sub-Saharan Africa. In most tropical regions of Africa, water erosion is accelerated by deforestation, population increase, and flooding due to heavy rainfall incidents. Water erosion manifests in various forms; sheet, rill and gully erosions. Sheet erosion occurs through surface run-off washing away considerable amount of nutrients from top soil thereby rendering it unproductive. In cases where massive water quantities flow down susceptible sloping and gentle terrain, rill and gully erosion occurs.
+Gully erosion is the most destructive form of soil erosion since it can remove and transport huge quantities of soil (Daba, Rieger, and Strauss 2003).
+Machine-learning algorithms have become common in remote sensing tasks such as image classification. I used Random Forest to classify Sentinel 2 images into two classes (i.e. binary classification). Random forest is an ensemble learning algorithm based on the idea that a combination of bootstrap aggregated classifiers perform better than a single classifier (Breiman 2001). The bootstrap component means that each individual tree is parameterized using a randomly sampled set of observations with replacement from the training data (Hastie, Tibshirani, and Friedman 2009). This helps to de-correlate the trees thereby reducing multi-collinearity. The proportion of observations that are not used for this purpose are included in the evaluation and are referred to “out-of-bag” samples. Several of these decision tree models are created on different groupings of the input variables and the resultant output is the unweighted majority vote of each class that is averaged across all trees (Breiman 2001).
+in this project, I am going to identify gully erosion/features using machine-learning and sentinel 2 imagery. The data required includes satellite imagery and reference samples. I used Sentinel 2 images downloaded from https://scihub.copernicus.eu/dhus/#/home. The images were downloaded as S2 Level 1C TOA and are not corrected of atmospheric effects. I used SNAP Sen2Cor to correct atmospheric effects and get S2 Level 2A BOA. Training and validation samples were digitized in a GIS environment.
 
 Source: <a href="https://github.com/neli12/data-science/tree/main/MckDatathon"><i class="large github icon"></i>data-science/MckDatathon</a>
 
