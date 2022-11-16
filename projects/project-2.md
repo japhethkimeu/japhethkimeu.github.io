@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/classified.JPG
 title: Gully feature identification using Machine Learning
-permalink: projects/vacay
+permalink: projects/gully
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-15
 labels:
