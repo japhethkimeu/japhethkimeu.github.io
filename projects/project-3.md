@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/gee.jpeg
+image: images/ee-chart.png
 title: Implementation of RUSLE method in Google Earth Engine to estimate soil loss
 permalink: projects/soil-loss-estimation
 # All dates must be YYYY-MM-DD format!
