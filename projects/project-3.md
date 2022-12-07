@@ -13,7 +13,15 @@ labels:
   - land degradation
 summary: Estimating soil loss using RUSLE in Google Earth Engine.
 ---
-
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/C.JPG">
+  
+  
+  <img class="ui image" src="../images/K.JPG">
+  <img class="ui image" src="../images/LS.JPG">
+  <img class="ui image" src="../images/R.JPG">
+  <img class="ui image" src="../images/P.JPG">
+</div>
 <img class="ui image" src="{{ site.baseurl }}/images/soil_loss.JPG">
 
 Revised Universal Soil Loss Equation (RUSLE) developed by Renard et al. (1996) is one of the methods used in estimating soil loss. In this project, I implemented RUSLE in GEE to estimate annual soil loss in North-Western Somalia. RUSLE is described by A = R * K * LS * C * P, where, A is the mean annual soil loss in metric tonnes/ha/year, R is rainfall erosivity factor, K is soil erodibility factor, LS is slope length-steepness factor, C is cover and management factor and P is erosion management factor. More about RUSLE https://handle.nal.usda.gov/10113/11126
