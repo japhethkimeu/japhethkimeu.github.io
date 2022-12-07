@@ -13,23 +13,9 @@ labels:
   - land degradation
 summary: Estimating soil loss using RUSLE in Google Earth Engine.
 ---
+
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/C.JPG">
- </div>
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/K.JPG">
- </div>
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/LS.JPG">
- </div>
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/P.JPG">
- </div>
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/R.JPG">
- </div>
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/annual_soil_loss.JPG">
+  <img class="ui image" src="../images/combined.JPG">
  </div>
 
 
