@@ -15,13 +15,13 @@ summary: Estimating soil loss using RUSLE in Google Earth Engine.
 ---
 ---
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/C.JPG">
+  <img align="left" class="ui image" src="../images/C.JPG">
 </div>
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/K.JPG">
+  <img align="middle" class="ui image" src="../images/K.JPG">
 </div>
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/LS.JPG">
+  <img align="right" class="ui image" src="../images/LS.JPG">
 </div>
 <div class="ui small rounded images">
   <img class="ui image" src="../images/R.JPG">
