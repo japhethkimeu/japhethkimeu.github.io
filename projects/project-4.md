@@ -1,31 +1,24 @@
 ---
 layout: project
 type: project
-image: images/images_art_rec.jpg
-title: Different spatial scales
-permalink: projects/spatial_scales
-
+image: images/annual_soil_loss.JPG
+title: Implementation of RUSLE method in Google Earth Engine to estimate soil loss
+permalink: projects/soil_loss_assessment
 # All dates must be YYYY-MM-DD format!
-date: 2021-02-01
+date: 2022-12-04
 labels:
-  - Landsat-8
-  - Sentinel-2
-  - PlanetScope
-  - Soil management
-  - Pedology
-summary: Mapping soil properties using satellite images in different temporal, spatial and spectral resolution.
+  - Google Earth Engine
+  - JavaScript
+  - soil loss
+  - land degradation
+summary: Estimating soil loss using RUSLE in Google Earth Engine.
 ---
 
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/combined.PNG">
+ </div>
 
-This is another research of my PhD. In this example, I want to present and discuss how satellite images in different spatial, spectral and temporal resolutions can affect the representation of the spatial variability of soil properties.
 
-In the figure presented below, you can see a zoom in a small rectangle of an area in southeastern Brazil, specifically in Rafard city. Me and the co-authors of this research tested five satellite images in different resolutions for mapping topsoil properties:
-- Landsat-8 of a single-day (L8-OLI October 2017)
-- Sentinel-2 of a single day (S2-MSI November 2017)
-- PlanetScope of a single day (PS November 2017)
-- Landsat bare soil image (SYSI L8-OLI, median reflectance spectra of a time series of four years)
-- Sentinel bare soil images (SYSI S2-MSI, median reflectance spectra of a time series of four years).
+Revised Universal Soil Loss Equation (RUSLE) developed by Renard et al. (1996) is one of the methods used in estimating soil loss. In this project, I implemented RUSLE in GEE to estimate annual soil loss in North-Western Somalia. RUSLE is described by A = R * K * LS * C * P, where, A is the mean annual soil loss in metric tonnes/ha/year, R is rainfall erosivity factor, K is soil erodibility factor, LS is slope length-steepness factor, C is cover and management factor and P is erosion management factor. The mean annual soil loss in the study area is 36.05 t/ha/yr. Steep sloping areas especially the mountanious/hilly (see soil loss map) areas have the highest soil loss rates in the region. More about RUSLE https://handle.nal.usda.gov/10113/11126.
 
-<img class="ui image" src="{{ site.baseurl }}/images/images_art.jpg">
-
-In the figure, we are presenting the maps of soil texture, obtained from each of the images used, after applying machine learning, training the data and predicting the values for the whole area. We can easily observe the differences. 
+Source: <a href="https://github.com/japhethkimeu/soil_loss_assessment"><i class="large github icon "></i>soil_loss_assessment</a>
