@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/annual_tempKE.png
-title: Observed and projected climate data analysis in R: What are the expected changes in climatic conditions?
+title: Observed and projected climate data analysis in R: What are the expected changes in climatic conditions
 permalink: projects/climate_analysis
 
 # All dates must be YYYY-MM-DD format!
