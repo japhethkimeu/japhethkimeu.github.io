@@ -22,4 +22,5 @@ I will be analysing observed and projected data for the following:
 - Temperature
 - Precipitation
 
+Source: <a href="https://github.com/japhethkimeu/climate_analysis"><i class="large github icon"></i>climate_analysis</a>
 
