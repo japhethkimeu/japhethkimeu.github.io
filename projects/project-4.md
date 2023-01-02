@@ -22,5 +22,6 @@ Currently I am working on the following:
 - Temperature
 - Precipitation
 Based on the data, the Kenya and the world at large is expected to be hotter by 2-3 degrees celsius by the year 2050.
+
 Source: <a href="https://github.com/japhethkimeu/climate_analysis"><i class="large github icon"></i>climate_analysis</a>
 
