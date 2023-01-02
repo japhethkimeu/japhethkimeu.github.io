@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/images_art_rec.jpg
+image: images/annual_tempKE.png
 title: Climate data analysis in R
 permalink: projects/climate_analysis
 
