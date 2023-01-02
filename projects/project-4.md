@@ -17,8 +17,8 @@ summary: Time series climate data analysis in R
 ---
 
 
-Intergovernmental Panel on Climate Change Assessment published observed and projected data on climate with a high temporal coverage of observed and projected data. The data consists of various weather and climate elements including temperature, precipitation, humidity, air pressure, etc. In this work, I will be analysing the various datasets () using R programming. The data is available at https://worldclim.org/ and https://esgf-node.llnl.gov/projects/cmip5/ (CMIP5 models).
-I will be analysing observed and projected data for the following:
+Intergovernmental Panel on Climate Change Assessment published observed and projected data on climate with a high temporal coverage. The data consists of various weather and climate elements including temperature, precipitation, humidity, air pressure, etc. In this work, I will be analysing the various datasets to show current and future scenarios using R programming. The data is available at https://worldclim.org/ and https://esgf-node.llnl.gov/projects/cmip5/ (CMIP5 models).
+Currently I am working on the following:
 - Temperature
 - Precipitation
 
