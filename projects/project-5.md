@@ -1,24 +1,24 @@
 ---
 layout: project
 type: project
-image: images/WIDS_1.png
-title: WIDS Datathon 2022
-permalink: projects/wids-datathon
+image: images/predict_1.PNG
+title: Detecting deforestation using deep learning algorithms
+permalink: projects/deforestation_mapping
 
 # All dates must be YYYY-MM-DD format!
-date: 2022-01-06
+date: 2023-01-24
 labels:
-  - climate change
-  - data science
-  - energy efficiency
-  - python
-  - jupyterlab
-summary: My participation in the WIDS Datathon 2022
+  - deforestation
+  - tensorflow
+  - deep learning
+  - keras
+  - sentinel-2
+summary: Using deep learning algorithms to detect deforestation in satellite imagery
 ---
 
 
-This is the second datathon I am participating. Because it is ongoing until February 26, is still incomplete.  
-As soon as I get the results, I will be updating here!
+Deforestation is one of the major contributing factor to climate change. Vegetation loss has led to changing climatic conditions that have been witnessed all over the world. In Brazil, its estimated that over 500,000 square kilometres of natural vegetation have been cut down in the last 50 years. Serious interventions are needed to curb this trend. Satellite imagery analysis is one of the ways we can detect and monitor deforestation. In this project, I have analysed Sentinel-2 imagery of three regions in the State of MatoGrosso in Brazil and derived image chips to train a deep learning model to detect deforestation. 
+The results show that these are algorithms are capable of identifying small changes in vegetation cover and can therefore be applied in monitoring our forests.
 
-<img class="ui image" src="{{ site.baseurl }}/images/wids_2.PNG">
+<img class="ui image" src="{{ site.baseurl }}/images/predict_2.PNG">
 
