@@ -21,11 +21,11 @@ summary: Flood mapping and damage assessment using mndwi in google earth engine
 
 
 <img class="ui image" src="../images/flood.PNG"></div>
+<img class="ui image" src="../images/classified.PNG"></div>
 
 
 
-
-Code: <a href="https://github.com/japhethkimeu/flood_analysis"><i class="large github icon"></i>flood analysis</a>
+source: <a href="https://github.com/japhethkimeu/flood_analysis"><i class="large github icon"></i>flood analysis</a>
 
 
 
