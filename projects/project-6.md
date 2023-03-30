@@ -16,16 +16,16 @@ labels:
 summary: Flood mapping and damage assessment using mndwi in google earth engine
 ---
 
- Flooding in South America has increased in the last decade due to changing climatic conditions. In Peru, El Nino like conditions of heavy rainfall have been witnessed recently. In March 2021, severe flooding damaged more than 3000 homes killing dozens of people in various provinces. In this project, I apply the modified normalized difference water index on sentinel 2 imagery to detect flooding in Piura Province, Peru. I also carry out an indepth assessment of the damage caused by the floods to people and crops. 
+<div class="ui images">
+  <img class="ui image" src="../images/flood.PNG">
+  
+  
+  <img class="ui image" src="../images/classified.PNG">
+</div>
+
+
+Flooding in South America has increased in the last decade due to changing climatic conditions. In Peru, El Nino like conditions of heavy rainfall have been witnessed recently. In March 2021, severe flooding damaged more than 3000 homes killing dozens of people in various provinces. In this project, I apply the modified normalized difference water index on sentinel 2 imagery to detect flooding in Piura Province, Peru. I also carry out an indepth assessment of the damage caused by the floods to people and crops. 
  Agricultural areas were the most affected with over 877 hectares of cropland covered by flood water. Thousands of people were displaced and their houses damaged by the floods.
 
-
-<img class="ui image" src="../images/flood.PNG"></div>   <img class="ui image" src="../images/classified.PNG"></div>
-
-
-
-
 source: <a href="https://github.com/japhethkimeu/flood_analysis"><i class="large github icon"></i>flood analysis</a>
-
-
 
