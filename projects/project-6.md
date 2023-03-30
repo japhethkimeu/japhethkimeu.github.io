@@ -16,11 +16,8 @@ labels:
 summary: Flood mapping and damage assessment using mndwi in google earth engine
 ---
 
-<div class="ui images">
-  <img class="ui image" src="../images/flood.PNG">
-  
-  
-  <img style="float: center;" src="../images/classified.PNG">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/combined_flood.PNG">
 </div>
 
 
