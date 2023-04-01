@@ -2,7 +2,6 @@
 layout: project
 type: project
 image: images/predict_1.PNG
-image: images/predict_2.PNG
 title: Detecting deforestation using deep learning algorithms
 permalink: projects/deforestation_mapping
 
