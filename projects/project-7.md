@@ -20,12 +20,12 @@ Lake Victoria wetlands have faced a myriad of threats arising from human activit
 
 In this work, I detect changes in wetland ecosystems in the Lake Victoria basin in Uganda using Landsat timeseries satellite imagery of 2015 and 2020.
 
-<img class="ui image" src="https://github.com/neli12/screenshots-figures/blob/main/Capture.PNG?raw=true" width="700"></div>
+<img class="ui image" src="../images/wetland.png">
 
 Results show that  hectares of wetlands were converted to urban between 2015 and 2020. 
  
 
 
-Source: <a href="https://github.com/japhethkimeu/wetland-change-detection"><i class="large github icon"></i>Wetlands change detection</a>
+Source: <a href="https://github.com/japhethkimeu/wetlands-change-detection"><i class="large github icon"></i>Wetlands change detection</a>
 
 
