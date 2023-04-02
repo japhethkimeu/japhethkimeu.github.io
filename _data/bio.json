@@ -6,7 +6,7 @@
     "email": "kimeujeffer@gmail.com",
     "phone": "",
     "website": "https://japhethkimeu.github.io",
-    "summary": "I am a geospatial and remote sensing consultant currently working with the Food and Agriculture Organization of the United Nations.", 
+    "summary": "I am a geospatial and remote sensing consultant currently working at the Food and Agriculture Organization of the United Nations.", 
     "location": {
       "address": "30470",
       "postalCode": "00100",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "big data",
+      "name": "big data & cloud computing",
       "keywords": [
       ]
     }
@@ -63,8 +63,8 @@
       "level": "",
       "keywords": [
         "QGIS",
-        "ArcMap",
-        "ArcGIS Pro",
+        "ESRI ArcMap",
+        "ESRI ArcGIS Pro",
         "ERDAS IMAGINE"
       ]
     }
