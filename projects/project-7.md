@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/wetland_classified.PNG
+image: images/change12-22.PNG
 title: Temporal analysis of Lake Victoria basin wetlands 
 permalink: projects/wetland_change_detection
 
