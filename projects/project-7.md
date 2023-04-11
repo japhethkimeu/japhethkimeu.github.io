@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/wetland.png
+image: images/wetland_classified.PNG
 title: Temporal analysis of Lake Victoria basin wetlands 
 permalink: projects/wetland_change_detection
 
@@ -10,7 +10,7 @@ date: 2023-03-25
 labels:
   - wetlands
   - landsat
-  - gee
+  - google earth engine
   - arcgis pro
   - timeseries
 summary: Detecting changes in wetlands using Landsat timeseries satellite imagery
@@ -22,9 +22,9 @@ In Uganda, there has been efforts to protect and restore degraded wetlands throu
 
 In this work, I detect changes in wetland ecosystems in the Lake Victoria basin in Uganda using Landsat timeseries satellite imagery of 1999 - 2002, 2009 - 2012, and 2019 - 2022.
 
-<img class="ui image" src="../images/wetland.png">
+<img class="ui image" src="../images/wetland_changes.PNG">
 
-Results show that  hectares of wetlands were converted to urban between 2015 and 2020. 
+Results show that hectares of wetlands were converted to urban and cropland between 2002 and 2022. The biggest wetland changes were observed between 2002 and 2022 as Kampala city expanded due to population pressure. Additionally, between 2012 and 2022, there was a substantial loss of cropland areas around the city.
  
 
 
