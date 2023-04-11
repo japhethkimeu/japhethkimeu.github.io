@@ -22,11 +22,11 @@ In Uganda, there has been efforts to protect and restore degraded wetlands throu
 
 In this work, I detect changes in wetland ecosystems in the Lake Victoria basin in Uganda using Landsat timeseries satellite imagery of 1999 - 2002, 2009 - 2012, and 2019 - 2022.
 
-<img class="ui image" src="../images/wetland_changes.PNG">
+<img class="ui image" src="../images/wetland_classified.PNG">
 
 Results show that hectares of wetlands were converted to urban and cropland between 2002 and 2022. The biggest wetland changes were observed between 2002 and 2022 as Kampala city expanded due to population pressure. Additionally, between 2012 and 2022, there was a substantial loss of cropland areas around the city.
  
-
+<img class="ui image" src="../images/wetland_changes.PNG">
 
 Source: <a href="https://github.com/japhethkimeu/wetlands-change-detection"><i class="large github icon"></i>Wetlands change detection</a>
 
