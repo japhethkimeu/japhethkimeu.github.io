@@ -32,6 +32,7 @@ Deforestation is one of the major contributing factor to climate change. Vegetat
 I analysed Sentinel-2 images (cloud free) of three different regions in the State of Mato Grosso in Brazil and derived a total of 5,122 image chips and masks of size ***256 * 256***. The dataset was sampled into training and validation. Data augmentation was used where the images were flipped before being fed to the network for training. I used a U-Net model that consisted of encoder and decoder. The feature extraction/encoder was implemented using MobileNetV2 with pre-trained weights to enable earning of robust features and reduce trainable parameters. The decoder consisted of 4 layers and a final prediction layer with sigmoid activation.
 
 ![results/u-net-architecture.png](results/u-net-architecture.png)
+<img class="ui image" src="../images/u-net-architecture.PNG">
 
 More on Unet model [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
@@ -42,7 +43,8 @@ The model was trained first using the pre-trained weights of the base model for 
 The model prediction accuracy was 0.912. The accuracy can be improved by using other annotation methods to improve the quality of masks.
 
 ![results/predict_2.PNG](results/predict_2.PNG)
-
+<img class="ui image" src="../images/predict_2.PNG">
+<img class="ui image" src="../images/predict_3.PNG">
 ![results/predict_2.PNG](results/predict_3.PNG)
 
 ## Conclusion
