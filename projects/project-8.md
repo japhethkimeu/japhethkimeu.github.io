@@ -22,7 +22,11 @@ Remote sensing data available throughout the year can be used to estimate acreag
 <img class="ui image" src="../crop_images/combined.PNG">
 
 ## Methodology
-According to the crop calendar for 2019/2020 season, between January and mid-April is the vegetative stage of most of crops grown in the region. I analysed Sentinel 2 images and computed mean monthly NDVI for the period January 2020 to April 2020. I then classified the image and computed area for each class. I then build a logistic regression model using meanNDVI for each region and the yield ground truth data. The model was used to predict the yield for the next season.
+According to the crop calendar for the 2019/2020 season in Argentina, planting begins in late September to late December, between January and mid-April is the growth/vegetative stage of most crops grown in the region. Most crops are harvested starting early April. I analysed Sentinel 2 images for the season to determine the NDVI for each crop growth stage. According to the chart, NDVI values are low between September - December and high between January - March. The maximum values are in mid-February before they start going down in mid-March as the crop nears maturity. Using this information, I used a Sentinel 2 image of the region for the period January - March 2020 and;
+* Classified the image and computed area for each class.
+* Computed mean NDVI for each region.
+* Build a logistic regression model using the meanNDVI for each region and the yield ground truth data.
+* Used the model to predict yield for the next season.
 
 ## Results
 Cropland class had the highest area followed by Bare/Urban and then Water. The variation between the planted crop area and ground truth area was 18%. The R^2 of the model was 0.78 while the adjusted R^2 was 0.75. This means that NDVI is 75% responsible for the variation in the yield. The model was used to predict the yield in the next season and the variation between the two seasons was 12%.
