@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Japheth Kimeu",
-    "label": "GIS and Remote Sensing Consultant",
+    "label": "GIS and Remote Sensing Specialist",
     "picture": "https://japhethkimeu.github.io/images/kim.png",
     "email": "kimeujeffer@gmail.com",
     "phone": "",
@@ -76,7 +76,7 @@
       "studyType": "MSc",
       "startDate": "2018-08-26",
       "endDate": "2020-07-24",
-      "gpa": "8/10",
+      "gpa": "8.5/10",
       "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"
       ]
     },
@@ -94,17 +94,18 @@
   "work": [
     {
       "company": "FAO",
-      "position": "GIS and Remote Sensing Consultant",
+      "position": "GIS and Remote Sensing Specialist",
       "website": "http://www.faoswalim.org/",
       "startDate": "2021-09-01",
       "endDate": "Present",
       "summary": "FAO SWALIM",
       "highlights": [
         "Assisting in all activities involving spatial dataset management to support the provision of information to partners, stakeholders and other users.",
-        "Maintaining the SWALIM Geonode and Land resources portal and ensuring they are populated with updated datasets and metadata records that are well documented.",
-        "Assisting in development of GIS web applications such as flood mapping and drought monitoring and other geo-processing tools using Google Earth Engine and Python libraries.",
+        "Supporting the development and maintenance of FAO SWALIM web-based geoinformation portals and ensuring they are populated with updated datasets and metadata records that are well documented.",
+        "•	Liaising with Somalia line ministries, FAO Somalia sectors and SWALIM clients to better define their spatial information needs as well as participating in development of a framework for the natural resources information management, based on the needs and requirements identified.",
+        "•	Supporting development of a capacity strengthening plan for our partner’s staff especially Information Management Centres (IMCs) and Somali line ministries staff and providing technical support and on-the-job training on spatial data collection and analysis"
         "Participating in natural resource data collection through preparing data collection procedures, designing data collection forms, and evaluating quality of data collected.",
-        "Training staff from line ministries in Somalia on field data collection, GIS data analysis, and map production.",
+        "Training staff from IMCs and Somali line ministries on field data collection, GIS data analysis, and map production.",
         "Assisting in preparation of information for dissemination materials (posters, fact sheets, newsletters, technical reports, feature articles, etc.) and workshop materials.",
         "Assisting in preparation, review and arrangement of training material (field survey manuals, power point presentations, field practical guides) on natural resources mapping techniques, using SWALIM standard templates and format."
       ]
@@ -113,7 +114,7 @@
       "company": "County Government of Machakos",
       "position": "Geospatial Engineer",
       "startDate": "2016-01-11",
-      "endDate": "2018-08-21",
+      "endDate": "2021-08-21",
       "summary": "Team member",
       "highlights": [
         "Represented the County Government of Machakos in sustainable development forums, stakeholder meetings and workshops.",
