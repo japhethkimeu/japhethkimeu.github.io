@@ -28,7 +28,7 @@
   },
   "interests": [
     {
-      "name": "machine learning",
+      "name": "environmental management",
       "keywords": [
       ]
     },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "big data & cloud computing",
+      "name": "humanitarian",
       "keywords": [
       ]
     }
@@ -59,13 +59,13 @@
       ]
     },
     {
-      "name": "Softwares",
+      "name": "Softwares & Applications",
       "level": "",
       "keywords": [
         "QGIS",
-        "ESRI ArcMap",
         "ESRI ArcGIS Pro",
-        "ERDAS IMAGINE"
+        "Google Earth Engine",
+        " Power BI"
       ]
     }
   ],
@@ -73,7 +73,7 @@
     {
       "institution": "University of Twente, Faculty of Geoinformation Science and Earth Observation",
       "area": "Geoinformatics",
-      "studyType": "MSc",
+      "studyType": "MSc.",
       "startDate": "2018-08-26",
       "endDate": "2020-07-24",
       "gpa": "8.5/10",
@@ -117,14 +117,14 @@
       "endDate": "2021-08-21",
       "summary": "Team member",
       "highlights": [
-        "Represented the County Government of Machakos in sustainable development forums, stakeholder meetings and workshops.",
-        "Worked with line ministries in water, land, transport, agriculture in promoting sustainable resources use",
-        "Using R, JavaScript and Python, I developed programs for automating geospatial analysis workflows",
-        "Prepared reports, maps and charts for information sharing and dissemination",
-        "Assisted in organizing workshops and conferences for engaging stakeholders",
-        "Collaborated with NGO agencies and government bodies such as NLC in streamlining natural resource management policies",
-        "Oversaw natural resource data collection, analysis and sharing",
-        "Trained community members and stakeholders on sustainable environmental management"
+        "GIS data integration, analysis, development, design, and deployments of geospatial applications and systems for multi-disciplinary teams and departments.",
+        "Liased with line ministries such as water, land, transport, agriculture in promoting sustainable natural resources use.",
+        "Coordinated analysis of geospatial data for various projects as well as developing data analysis tools using R, JavaScript and Python.",
+        "Prepared reports, maps and charts for information sharing and dissemination.",
+        "Coordinating and overseeing the production of high-quality map/cartographic products.",
+        "Collaborated with NGO agencies and government bodies such as NLC in streamlining natural resource management policies.",
+        "Providing support, coordination, and advice in the development, implementation, and maintenance of geospatial projects and programs.",
+        "Trained staff and partners on natural resources data collection and analysis."
       ]
     },
     {
