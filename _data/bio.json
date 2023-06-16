@@ -102,42 +102,64 @@
       "highlights": [
         "Assisting in all activities involving spatial dataset management to support the provision of information to partners, stakeholders and other users.",
         "Supporting the development and maintenance of FAO SWALIM web-based geoinformation portals and ensuring they are populated with updated datasets and metadata records that are well documented.",
-        "Liaising with Somalia line ministries, FAO Somalia sectors and SWALIM clients to better define their spatial information needs as well as participating in development of a framework for natural resources information management, based on the needs and requirements identified.",
+        "Liaising with Somali line ministries, FAO Somalia sectors and SWALIM clients to better define their spatial information needs as well as participating in development of a framework for natural resources information management, based on the needs and requirements identified.",
         "Supporting development of a capacity strengthening plan for our partner’s staff especially Information Management Centres (IMCs) and Somali line ministries staff and providing technical support and on-the-job training on spatial data collection and analysis.",
-        "Participating in natural resource data collection through preparing data collection procedures, designing data collection forms, and evaluating quality of data collected.",
+        "Supporting the production of thematic maps and other cartographic products for sharing with stakeholders, partners and wider public on natural resources management.",
+        "Participating in natural resource data collection including preparing data collection procedures, designing data collection forms, and evaluating quality of data collected.",
         "Training staff from IMCs and Somali line ministries on field data collection, GIS data analysis, and map production.",
         "Assisting in preparation of information for dissemination materials (posters, fact sheets, newsletters, technical reports, feature articles, etc.) and workshop materials.",
         "Assisting in preparation, review and arrangement of training material (field survey manuals, power point presentations, field practical guides) on natural resources mapping techniques, using SWALIM standard templates and format."
       ]
     },
-    {
+       {
       "company": "County Government of Machakos",
-      "position": "Geospatial Engineer",
-      "startDate": "2016-01-11",
-      "endDate": "2021-08-21",
+      "position": "Senior GIS and Remote Sensing Officer",
+      "startDate": "2020-08-22",
+      "endDate": "2021-08-31",
       "summary": "Team member",
       "highlights": [
-        "GIS data integration, analysis, development, design, and deployments of geospatial applications and systems for multi-disciplinary teams and departments.",
-        "Liased with line ministries such as water, land, transport, agriculture in promoting sustainable natural resources use.",
-        "Coordinated analysis of geospatial data for various projects as well as developing data analysis tools using R, JavaScript and Python.",
-        "Prepared reports, maps and charts for information sharing and dissemination.",
-        "Coordinating and overseeing the production of high-quality map/cartographic products.",
+        "Creating, maintaining, and updating spatial data repositories including geo-databases and web based portal for spatial data and information dissemination.",
+        "Designing, development, integration, trouble shooting and deployment of geospatial applications and systems for multi-disciplinary teams and departments.",
+        "Developing custom tools, applications, and dashboards utilizing ESRI ArcGIS software, QGIS, Python, Power BI, JavaScript, and SQL for spatial analysis and automation.",
+        "Coordinating and supporting the production of high-quality GIS thematic maps and other cartographic products.",
+        "Supporting the planning and conducting of field surveys to collect data data including the design of survey forms utilizing ODK, Survey123, etc., conducting spatial data quality assessment, and analysis.",
+        "Nurtured relationships and collaborated with various stakeholders e.g. National Land Commission in various projects such as establishing a county land information management system.",
+        "Providing support, coordination, and advice in the development, implementation, and monitoring/evaluation of geospatial projects and programs.",
+        "Analysing remote sensing imagery to address environmental issues such as land use and land cover changes, forest and wetland ecosystem degradation, and drought using Google Earth Engine, ENVI, ERDAS IMAGINE, etc.",
+        "Supervising and training staff on remote sensing and GIS data analysis and information management."
+      ]
+    },
+    {
+      "company": "County Government of Machakos",
+      "position": "GIS Officer",
+      "startDate": "2016-01-11",
+      "endDate": "2020-08-21",
+      "summary": "Team member",
+      "highlights": [
+        "Supporting the development of GIS and earth observation tools for mapping environmental changes, land use, biodiversity, water scarcity and food security.",
+        "Gathering and compiling spatial data such as vector data layers and raster (UAV, satellite imagery, LiDAR imagery) from databases, online portals and field surveys, and conducting data quality assessments.",
+        "Identifying spatial data needs for various programs and projects and verifying all data gathered from different sources.",
+        "Developing methods and programs for image classification and analysis/processing utilizing Python, R, and machine learning.",
+        "Supporting the production of high-quality map/cartographic products and thematic maps.",
         "Collaborated with NGO agencies and government bodies such as NLC in streamlining natural resource management policies.",
-        "Providing support, coordination, and advice in the development, implementation, and maintenance of geospatial projects and programs.",
+        "Conducting research to identify data requirements, software needs and analysis as well as developing procedures for processing spatial data.",
         "Trained staff and partners on natural resources data collection and analysis."
       ]
     },
     {
       "company": "GeoInfo Surveys Ltd",
-      "position": "GIS Specialist",
+      "position": "GIS Assistant/Intern",
       "startDate": "2015-05-04",
       "endDate": "2015-12-31",
       "summary": "",
       "highlights": [
-        "Gathering and compiling spatial data from various online sources and preparing maps, reports and sketches. ",
-        "Assisted in planning and coordinating carrying out of field survey activities to collect data and establish survey control points and property boundaries. ",
-        "Assisted in verifying survey data and records such as GIS maps, cadastral plans, and sub-division schemes for issuance of title and lease deeds",
-        "Developed, maintained, and updated geo-databases, carrying out spatial analysis using GIS and remote sensing tools. "
+        "Supporting data acquisition from various sources, including public data sources, databases, and field data collection.",
+        "Performing data conversion from multiple formats (CAD, TIFF) into GIS data.",
+        "Assisted in verifying survey data and records such as GIS maps, cadastral plans, and sub-division schemes for issuance of title and lease deeds.",
+        "Utilizing ESRI ArcMap, QGIS, PostGIS, and AutoCAD Map 3D tools to perform spatial data analysis.",
+        "Developed, maintained, and updated geo-databases, including setup of field schema, domains, relationship classes, and topology rules.",
+        "Preparing reports and cartographic products utilizing GIS software and following template map designs.",
+        "Checking data, tables, maps, and reports for consistency and accuracy."
       ]
     }
   ],
