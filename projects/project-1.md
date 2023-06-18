@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/vhi_2022.PNG
-title: Drought monitoring using Google Earth Engine
+title: Drought monitoring using Vegetation Health Index in Google Earth Engine
 permalink: projects/drought_monitoring
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-25
