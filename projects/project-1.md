@@ -1,34 +1,42 @@
 ---
 layout: project
 type: project
-image: images/feb-1.png
+image: images/vhi_2022.PNG
 title: Drought monitoring using Google Earth Engine
 permalink: projects/drought_monitoring
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-25
 labels:
   - drought monitoring
-  - precipitation
+  - vegetation health index
   - temperature
+  - modis
   - Google Earth Engine
-summary: Drought monitoring in Somalia using time-series precipitation and temperature data in Google Earth Engine
+summary: Drought monitoring in Horn of Africa using time-series MODIS NDVI and temperature data in Google Earth Engine
 ---
+## Introduction
+Food insecurity and environmental degradation challenges have necessitated the need to study drought impacts in the world. In the horn of Africa, the last 6 years have experienced severe to extreme drought conditions due to the changing climatic conditions. This has had a huge impact on food and water availability leaving millions of people and livestock in danger of starvation. Various studies focusing on factors that greatly influence drought conditions such as rainfall, temperature and soil moisture have been done to examine and monitor the droughts in the region. Remote sensing time series data such as MODIS rainfall, NDVI and land surface temperature can be used to study the evolution of drought and inform decision makers on the necessary actions to take.
+
+## Methodology
+In this project, I analysed MODIS Normalized Difference Vegetation Index (NDVI) and Land Surface Temperature (LST) datasets to assess vegetation health using the Vegetation Health Index (VHI) in the region from 2010 to 2022 for long rains season between March and June every year. VHI is computed using Vegetation Condition Index (VCI) and Temperature Condition Index (TCI). VCI and TCI formulas are shown below.
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/nov-1.png">
+  <img class="ui image" src="../images/vci.PNG">
   
-  
-  <img class="ui image" src="../images/feb-1.png">
+  <img class="ui image" src="../images/tci.PNG">
 </div>
 
-Various indices are used in drought monitoring; precipitation index, temperature index, vegetation index (NDVI), and soil moisture index. In this work, I computed combined drought index  (cdi) using two commonly used indices, precipitation drought index (pdi) and temperature drought index (tdi). I modelled cdi as a function of pdi and tdi i.e. cdi = 0.7pdi + 0.3tdi. With availability of soil moisture index, cdi is computed as the sum of the three indices with precipitation taking 50% while temperature and soil moisture account for 25% each (cdi = 0.5pdi + 0.25tdi + 0.25sdi). I used time series chirps rainfall data and MODIS land surface temperature data in Google Earth Engine to compute the two indices for the year 2010 from January to December. 
+## Results
+The year 2022 experienced severe to extreme drought in almost all countries in the region. Eritrea, Djibouti, Somalia, North-Eastern Kenya and Ethiopia have been experiencing prolonged drought during the long rains season.
 
-Results show that almost half of the year 2010 Somalia experienced prolonged drought with October, November, and December months experiencing severe to extreme drought while January, February and march experienced moderate to severe drought. 
+<img class="ui image" src="../images/combined_vhi.PNG">
+![alt text](images/vhi.gif)
 
+## Conclusion
+This information is quite useful to stakeholders, partners, farmers, and governments in tackling food insecurity and vegetation loss in the wake of climate change.
 
 Source: <a href="https://github.com/japhethkimeu/droughtmonitoring"><i class="large github icon"></i>droughtmonitoring</a>
 
-More about combined drought index [here](https://cdi.faoswalim.org/uploads/CDI-Manual.pdf).
 
 
 
