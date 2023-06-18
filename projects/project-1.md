@@ -30,7 +30,7 @@ In this project, I analysed MODIS Normalized Difference Vegetation Index (NDVI) 
 The year 2022 experienced severe to extreme drought in almost all countries in the region. Eritrea, Djibouti, Somalia, North-Eastern Kenya and Ethiopia have been experiencing prolonged drought during the long rains season.
 
 <img class="ui image" src="../images/combined_vhi.PNG">
-![alt text](images/vhi.gif)
+![alt text](vhi.gif)
 
 ## Conclusion
 This information is quite useful to stakeholders, partners, farmers, and governments in tackling food insecurity and vegetation loss in the wake of climate change.
