@@ -13,7 +13,7 @@ labels:
   - google earth engine
   - arcgis pro
   - timeseries
-summary: Detecting changes in wetlands using Landsat timeseries satellite imagery
+summary: Detecting changes in wetlands using Landsat time-series satellite imagery
 ---
 
 ## Introduction
@@ -21,7 +21,7 @@ Lake Victoria wetlands have faced a myriad of threats arising from human activit
 In Uganda, there has been efforts to protect and restore degraded wetlands through enforcement of wetland management policies and engaging relevant stakeholders. Information generated from satellite imagery analysis including wetland change maps is vital in making decisions and generating effective and sustainable wetland resource management policies as well as deliberating on ways of mitigating the loss of these vital ecosystems.
 
 ## Methodology
-Time series remote sensing data from the Landsat series available since early 1980s was used in this study. I analysed Landsat imagery of the study area for three periods spanning 30 years from 1999 to 2022. I sampled cloud free images for each period and computed the median image in a specific period of 4 years. The images included Landsat 7 (1999 - 2002), Landsat 5 (2009 - 2012), and Landsat 8 (2019 - 2022). The three images were analysed as follows:
+Time series remote sensing data from the Landsat series available since the early 1980s was used in this study. I analysed Landsat imagery of the study area for three periods spanning 20 years from 1999 to 2022. I sampled cloud-free images for each period and computed the median image in a specific period of 4 years. The images included Landsat 7 (1999 - 2002), Landsat 5 (2009 - 2012), and Landsat 8 (2019 - 2022). The three images were analysed as follows:
  * Extracting features to improve classification. The spectral features include NDVI, NDWI, and EVI.
  * Image classification
  * Change detection using the classified images
