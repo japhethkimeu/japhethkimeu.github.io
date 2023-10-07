@@ -4,7 +4,7 @@
     {% assign app_pages = site.pages | where: "type", "app" | sort: "date" | reverse %}
       {% for page in app_pages %}
         {% unless page.draft %}
-          {% include app-card.html page=page %}
+          {% include app-card-1a.html page=page %}
         {% endunless %}
       {% endfor %}
   </div>
