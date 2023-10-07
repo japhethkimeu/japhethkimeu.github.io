@@ -1,6 +1,6 @@
 <!-- Used by all builtin themes. Now we list number of essays and projects. -->
 
-{% assign apps_pages = site.pages | where: "type", "app"  | where_exp: "page", "page.draft != true" %}
+{% assign app_pages = site.pages | where: "type", "app"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_apps = app_pages.size %}
 {% assign num_projects = project_pages.size %}
