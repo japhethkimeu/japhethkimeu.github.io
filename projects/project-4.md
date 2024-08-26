@@ -15,7 +15,7 @@ labels:
   - Airbus Pleiades Neo
 summary: Exploring Elephant Movement Patterns using Geospatial Data
 ---
-<img class="ui medium right floated rounded image" src="../images/temp_change.png">
+<img class="ui medium right floated rounded image" src="../images/elephant-movement.png">
 
 This project aims to identify the factors motivating the movement of African Elephants in Kunene and Erongo regions of Namibia using various geospatial data. The data includes
 - Topography (slope)
