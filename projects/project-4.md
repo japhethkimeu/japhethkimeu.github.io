@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/annual_tempKE.png
+image: images/ndvi.png
 title: Mapping Potential Elephant Corridor using VHR Satellite Imagery and Telemetry Data
 permalink: projects/elephant-movement
 
