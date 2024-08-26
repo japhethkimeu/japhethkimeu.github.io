@@ -2,18 +2,18 @@
 layout: project
 type: project
 image: images/annual_tempKE.png
-title: Observed and projected climate data analysis in R. What are the expected changes in climatic conditions?
-permalink: projects/climate_analysis
+title: Mapping Potential Elephant Corridor using VHR Satellite Imagery and Telemetry Data
+permalink: projects/elephant-movement
 
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-02
+date: 2024-07-02
 labels:
-  - Climate
-  - Temperature
-  - Precipitation
-  - Time series
-  - CMIP5
-summary: Time series climate data analysis in R 
+  - Human-Wildlife conflict
+  - Conservation
+  - Elephant movement
+  - Wildlife corridor
+  - Airbus Pleiades Neo
+summary: Exploring Elephant Movement Patterns using Geospatial Data
 ---
 <img class="ui medium right floated rounded image" src="../images/temp_change.png">
 
@@ -24,5 +24,5 @@ Currently I am working on the following:
 
 Based on the data, Kenya and the world at large is expected to be hotter by 2-3 degrees celsius by the year 2050.
 
-Source: <a href="https://github.com/japhethkimeu/climate_analysis"><i class="large github icon"></i>climate_analysis</a>
+Source: <a href="https://github.com/japhethkimeu/elephant-movement"><i class="large github icon"></i>climate_analysis</a>
 
