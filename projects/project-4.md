@@ -35,4 +35,5 @@ Based on the analysis, the movement of elephants across the landscape was primar
 The analysis also showed that the terrain played a significant role in their movement patterns. Elephants tended to avoid steep slopes, with 90% of their movements occurring in gentler areas. High population density and deep areas along rivers were other factors that the elephants avoided. Furthermore, the presence of fences was a notable restriction on their movement, although in some instances, the elephants breached commercial farms by damaging the fences.
 
 EHRA plans to use these insights to establish a wildlife corridor in the area. This corridor will aim to mitigate conflicts by reducing incidents of elephants destroying fences, crops, and structures, and to decrease the frequency of farmers taking extreme measures against straying animals. By addressing these challenges, EHRA seeks to enhance coexistence between elephants and local communities.
+
 Source: <a href="https://github.com/japhethkimeu/elephant-movement"><i class="large github icon"></i>elephant-movement</a>
