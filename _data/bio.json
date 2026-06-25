@@ -231,5 +231,28 @@
       "name": "Available upon request",
       "reference": ""
     }
+  ],
+  "advisory": [
+    {
+      "role": "Lead Judge, Satellites for Biodiversity Award",
+      "organization": "Connected Conservation Foundation & Airbus Foundation",
+      "startDate": "2023",
+      "endDate": "Present",
+      "summary": "Evaluating innovative applications of satellite earth observation for biodiversity conservation outcomes across Africa and beyond."
+    },
+    {
+      "role": "Plenary Moderator, \"Connected Intelligence\"",
+      "organization": "Agritec Africa 2026, Nairobi",
+      "startDate": "2026",
+      "endDate": "",
+      "summary": "Moderated a high-level plenary on AI and digital tools in agriculture, bringing together panelists from across the public, private, and development sectors to examine institutional and financial barriers to technology adoption in African food systems."
+    },
+    {
+      "role": "Speaker, Conservation Technology Podcast",
+      "organization": "Connected Conservation Foundation & Airbus Foundation",
+      "startDate": "2026",
+      "endDate": "",
+      "summary": "Discussing the role of earth observation and AI in advancing conservation outcomes across Africa's critical wildlife corridors and landscapes."
+    }
   ]
 }
