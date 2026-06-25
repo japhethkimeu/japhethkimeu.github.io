@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Japheth Kimeu",
-    "label": "GIS and Remote Sensing Specialist",
+    "label": "Geospatial Technical Advisor | FAO",
     "picture": "https://japhethkimeu.github.io/images/kim.png",
     "email": "kimeujeffer@gmail.com",
     "phone": "",
     "website": "https://japhethkimeu.github.io",
-    "summary": "I am a geospatial and remote sensing specialist currently working for the Food and Agriculture Organization of the United Nations.", 
+    "summary": "I am a geospatial technical advisor with over 8 years of experience applying earth observation, GIS, and AI/ML to conservation, food security, and climate-smart agriculture across Africa. I currently serve as a Geospatial Technical Advisor at FAO and as GIS & Data Specialist at Connected Conservation Foundation, where I support decision-making across critical wildlife corridors and landscapes. My work spans spatial data systems, remote sensing, capacity development, and the translation of complex geospatial analysis into actionable insights for conservation and development stakeholders.",
     "location": {
       "address": "30470",
       "postalCode": "00100",
       "city": "Nairobi",
-      "countryCode": "Kenya",
+      "countryCode": "Kenya"
     },
     "profiles": [
       {
@@ -23,49 +23,77 @@
         "network": "linkedin",
         "username": "kimeujapheth",
         "url": "http://linkedin.com/in/kimeujapheth"
-      },
+      }
     ]
   },
   "interests": [
     {
-      "name": "environmental management",
-      "keywords": [
-      ]
+      "name": "conservation technology",
+      "keywords": []
     },
     {
-      "name": "remote sensing",
-      "keywords": [
-      ]
+      "name": "climate-smart agriculture",
+      "keywords": []
     },
     {
-      "name": "GIS",
-      "keywords": [
-      ]
+      "name": "GeoAI & earth observation",
+      "keywords": []
     },
     {
-      "name": "humanitarian",
-      "keywords": [
-      ]
+      "name": "biodiversity monitoring",
+      "keywords": []
+    },
+    {
+      "name": "capacity development",
+      "keywords": []
+    },
+    {
+      "name": "nature-based solutions",
+      "keywords": []
     }
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "R",
         "Python",
-        "Javascript"
+        "R",
+        "JavaScript",
+        "SQL"
       ]
     },
     {
-      "name": "Softwares & Applications",
+      "name": "GIS & Remote Sensing Tools",
       "level": "",
       "keywords": [
-        "QGIS",
-        "ESRI ArcGIS Pro",
         "Google Earth Engine",
-        " Power BI"
+        "ESRI ArcGIS Pro",
+        "QGIS",
+        "ENVI",
+        "ERDAS IMAGINE"
+      ]
+    },
+    {
+      "name": "Methods & Frameworks",
+      "level": "",
+      "keywords": [
+        "Deep Learning & CNNs",
+        "Random Forest & SVM",
+        "Land Use / Land Cover Change Detection",
+        "Corridor Modelling",
+        "REDD+ / MRV",
+        "UAV Data Processing"
+      ]
+    },
+    {
+      "name": "Data & Visualisation",
+      "level": "",
+      "keywords": [
+        "Power BI",
+        "ArcGIS StoryMaps",
+        "ODK / Survey123",
+        "PostGIS"
       ]
     }
   ],
@@ -77,8 +105,7 @@
       "startDate": "2018-08-26",
       "endDate": "2020-07-24",
       "gpa": "8.5/10",
-      "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"
-      ]
+      "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"]
     },
     {
       "institution": "Technical University of Kenya",
@@ -87,46 +114,54 @@
       "startDate": "2011-01-11",
       "endDate": "2015-12-18",
       "gpa": "9/10",
-      "courses": ["GIS", "Remote Sensing", "Land Management"
-      ]
+      "courses": ["GIS", "Remote Sensing", "Land Management"]
     }
   ],
   "work": [
     {
-      "company": "FAO",
-      "position": "GIS and Remote Sensing Specialist",
-      "website": "http://www.faoswalim.org/",
+      "company": "Food and Agriculture Organization of the United Nations (FAO)",
+      "position": "Geospatial Technical Advisor",
+      "website": "https://www.fao.org",
       "startDate": "2021-09-01",
       "endDate": "Present",
-      "summary": "FAO SWALIM",
+      "summary": "",
       "highlights": [
-        "Assisting in all activities involving spatial dataset management to support the provision of information to partners, stakeholders and other users.",
-        "Supporting the development and maintenance of FAO SWALIM web-based geoinformation portals and ensuring they are populated with updated datasets and metadata records that are well documented.",
-        "Liaising with Somali line ministries, FAO Somalia sectors and SWALIM clients to better define their spatial information needs as well as participating in development of a framework for natural resources information management, based on the needs and requirements identified.",
-        "Supporting development of a capacity strengthening plan for our partner’s staff especially Information Management Centres (IMCs) and Somali line ministries staff and providing technical support and on-the-job training on spatial data collection and analysis.",
-        "Supporting the production of thematic maps and other cartographic products for sharing with stakeholders, partners and wider public on natural resources management.",
-        "Participating in natural resource data collection including preparing data collection procedures, designing data collection forms, and evaluating quality of data collected.",
-        "Training staff from IMCs and Somali line ministries on field data collection, GIS data analysis, and map production.",
-        "Assisting in preparation of information for dissemination materials (posters, fact sheets, newsletters, technical reports, feature articles, etc.) and workshop materials.",
-        "Assisting in preparation, review and arrangement of training material (field survey manuals, power point presentations, field practical guides) on natural resources mapping techniques, using SWALIM standard templates and format."
+        "Provide geospatial and remote sensing advisory support across FAO programmes in East Africa, with a focus on climate-smart agriculture and natural resource management.",
+        "Lead spatial data management, analysis, and capacity development initiatives supporting partner institutions and government ministries.",
+        "Design and maintain web-based geospatial portals and databases, ensuring datasets are documented, current, and accessible to stakeholders.",
+        "Facilitate training and on-the-job capacity building for national staff and line ministry partners on GIS, remote sensing, and field data collection.",
+        "Produce thematic maps, technical reports, and cartographic products to support evidence-based decision-making in food security and natural resource contexts.",
+        "Coordinate with government agencies, UN partners, and NGOs to define spatial data needs and contribute to national information management frameworks."
       ]
     },
-       {
+    {
+      "company": "Connected Conservation Foundation (CCF)",
+      "position": "GIS & Data Specialist",
+      "website": "https://connectedconservation.com",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Lead geospatial analysis and earth observation work across a portfolio of critical wildlife corridors and conservation landscapes in Africa.",
+        "Apply AI/ML and very high-resolution satellite imagery to biodiversity monitoring, habitat change detection, and invasive species mapping.",
+        "Support the Interconnected Earth programme, designing spatial frameworks for ecologically linked landscape conservation across multiple sites.",
+        "Develop capacity development programmes for conservation practitioners on GIS, remote sensing, and spatial data tools.",
+        "Collaborate with the Airbus Foundation and conservation partners on imagery access, analysis pipelines, and programme design.",
+        "Serve as lead judge on the Satellites for Biodiversity Award, evaluating innovative uses of satellite data for conservation outcomes."
+      ]
+    },
+    {
       "company": "County Government of Machakos",
       "position": "Senior GIS and Remote Sensing Officer",
       "startDate": "2020-08-22",
       "endDate": "2021-08-31",
-      "summary": "Team member",
+      "summary": "",
       "highlights": [
-        "Creating, maintaining, and updating spatial data repositories including geo-databases and web based portal for spatial data and information dissemination.",
-        "Designing, development, integration, trouble shooting and deployment of geospatial applications and systems for multi-disciplinary teams and departments.",
-        "Developing custom tools, applications, and dashboards utilizing ESRI ArcGIS software, QGIS, Python, Power BI, JavaScript, and SQL for spatial analysis and automation.",
-        "Coordinating and supporting the production of high-quality GIS thematic maps and other cartographic products.",
-        "Supporting the planning and conducting of field surveys to collect data data including the design of survey forms utilizing ODK, Survey123, etc., conducting spatial data quality assessment, and analysis.",
-        "Nurtured relationships and collaborated with various stakeholders e.g. National Land Commission in various projects such as establishing a county land information management system.",
-        "Providing support, coordination, and advice in the development, implementation, and monitoring/evaluation of geospatial projects and programs.",
-        "Analysing remote sensing imagery to address environmental issues such as land use and land cover changes, forest and wetland ecosystem degradation, and drought using Google Earth Engine, ENVI, ERDAS IMAGINE, etc.",
-        "Supervising and training staff on remote sensing and GIS data analysis and information management."
+        "Led development and maintenance of spatial data repositories, geo-databases, and web-based portals for data dissemination.",
+        "Designed and deployed geospatial applications and dashboards using ArcGIS, QGIS, Python, Power BI, and JavaScript.",
+        "Analysed remote sensing imagery to map land use change, wetland degradation, and drought conditions using Google Earth Engine and ENVI.",
+        "Supervised and trained staff on GIS analysis, remote sensing, and spatial data management.",
+        "Collaborated with the National Land Commission and other agencies on county land information management systems."
       ]
     },
     {
@@ -134,32 +169,26 @@
       "position": "GIS Officer",
       "startDate": "2016-01-11",
       "endDate": "2020-08-21",
-      "summary": "Team member",
+      "summary": "",
       "highlights": [
-        "Supporting the development of GIS and earth observation tools for mapping environmental changes, land use, biodiversity, water scarcity and food security.",
-        "Gathering and compiling spatial data such as vector data layers and raster (UAV, satellite imagery, LiDAR imagery) from databases, online portals and field surveys, and conducting data quality assessments.",
-        "Identifying spatial data needs for various programs and projects and verifying all data gathered from different sources.",
-        "Developing methods and programs for image classification and analysis/processing utilizing Python, R, and machine learning.",
-        "Supporting the production of high-quality map/cartographic products and thematic maps.",
-        "Collaborated with NGO agencies and government bodies such as NLC in streamlining natural resource management policies.",
-        "Conducting research to identify data requirements, software needs and analysis as well as developing procedures for processing spatial data.",
-        "Trained staff and partners on natural resources data collection and analysis."
+        "Developed GIS and earth observation tools for mapping environmental change, land use, biodiversity, and food security.",
+        "Collected and processed spatial data from UAV, satellite imagery, and LiDAR sources alongside field surveys.",
+        "Built image classification and analysis workflows using Python, R, and machine learning methods.",
+        "Trained staff and partners on natural resource data collection and geospatial analysis.",
+        "Collaborated with NGOs and government bodies to support natural resource management policy."
       ]
     },
     {
       "company": "GeoInfo Surveys Ltd",
-      "position": "GIS Assistant/Intern",
+      "position": "GIS Assistant / Intern",
       "startDate": "2015-05-04",
       "endDate": "2015-12-31",
       "summary": "",
       "highlights": [
-        "Supporting data acquisition from various sources, including public data sources, databases, and field data collection.",
-        "Performing data conversion from multiple formats (CAD, TIFF) into GIS data.",
-        "Assisted in verifying survey data and records such as GIS maps, cadastral plans, and sub-division schemes for issuance of title and lease deeds.",
-        "Utilizing ESRI ArcMap, QGIS, PostGIS, and AutoCAD Map 3D tools to perform spatial data analysis.",
-        "Developed, maintained, and updated geo-databases, including setup of field schema, domains, relationship classes, and topology rules.",
-        "Preparing reports and cartographic products utilizing GIS software and following template map designs.",
-        "Checking data, tables, maps, and reports for consistency and accuracy."
+        "Supported spatial data acquisition, quality assessment, and conversion from CAD and raster formats into GIS.",
+        "Verified cadastral plans, subdivision schemes, and survey records for land title and lease processing.",
+        "Maintained and updated geo-databases with defined schema, topology rules, and relationship classes.",
+        "Prepared cartographic products and reports using ArcMap, QGIS, PostGIS, and AutoCAD Map 3D."
       ]
     }
   ],
@@ -168,16 +197,16 @@
       "organization": "OMDENA",
       "website": "",
       "position": "ML Engineer",
-      "startDate": "2010-08-29",
+      "startDate": "2022-01-01",
       "endDate": "Present",
       "summary": "Collaborator",
       "highlights": [
         "Food security mapping using AI",
-        "Crop mapping and identification using AI"
+        "Crop mapping and identification using machine learning"
       ]
     },
-     {
-      "organization": "Humanitarian Openstreet Map",
+    {
+      "organization": "Humanitarian OpenStreetMap Team",
       "website": "",
       "position": "Mapper",
       "startDate": "2021-02-12",
