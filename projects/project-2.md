@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/Classified11.JPG
-title: Gully feature identification using Machine Learning
+title: "Land Degradation Mapping Using Machine Learning and Sentinel-2 Imagery"
 permalink: projects/gully
-# All dates must be YYYY-MM-DD format!
 date: 2022-11-15
 labels:
+  - land degradation
+  - machine learning
   - Random Forest
-  - Support Vector Machines
-  - Machine Learning
-  - Land degradation
-summary: Classification of Sentinel 2 images to identify gullies using Random Forest & Support Vector Machine
+  - Sentinel-2
+  - soil erosion
+summary: "Can machine learning reliably identify gully features from satellite imagery to support land restoration and soil conservation programmes?"
 ---
 
 <img class="ui medium right floated rounded image" src="../images/Classified11.JPG">
