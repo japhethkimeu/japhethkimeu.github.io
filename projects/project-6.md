@@ -2,18 +2,16 @@
 layout: project
 type: project
 image: images/mndwi.PNG
-title: Flood analysis using sentinel 2 data in Google Earth Engine
+title: "Flood Extent Mapping and Damage Assessment in Peru Using Sentinel-2"
 permalink: projects/flood_analysis
-
-# All dates must be YYYY-MM-DD format!
 date: 2023-03-05
 labels:
-  - flood
+  - flood mapping
   - damage assessment
-  - mndwi
-  - sentinel 2
-  - google earth engine
-summary: Flood mapping and damage assessment using mndwi in google earth engine
+  - Sentinel-2
+  - Google Earth Engine
+  - humanitarian
+summary: "Assessing the human and agricultural toll of extreme flooding in Piura Province, Peru, using satellite-derived flood extent mapping to support disaster response and climate adaptation planning."
 ---
 
 ## Introduction
