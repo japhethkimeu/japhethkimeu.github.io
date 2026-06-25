@@ -99,31 +99,18 @@
   ],
   "education": [
     {
-      "institution": "University of Twente, Faculty of Geoinformation Science and Earth Observation",
+      "institution": "University of Twente",
       "area": "Geoinformatics",
       "studyType": "MSc.",
       "startDate": "2018-08-26",
-      "endDate": "2020-07-24",
-      "gpa": "8.5/10",
-      "courses": [
-        "GIS",
-        "Remote Sensing",
-        "Machine Learning",
-        "UAV for Earth Observation"
-      ]
+      "endDate": "2020-07-24"
     },
     {
       "institution": "Technical University of Kenya",
       "area": "Geospatial Engineering",
-      "studyType": "BSc",
+      "studyType": "BSc.",
       "startDate": "2011-01-11",
-      "endDate": "2015-12-18",
-      "gpa": "9/10",
-      "courses": [
-        "GIS",
-        "Remote Sensing",
-        "Land Management"
-      ]
+      "endDate": "2015-12-18"
     }
   ],
   "work": [
@@ -131,16 +118,30 @@
       "company": "Food and Agriculture Organization of the United Nations (FAO)",
       "position": "Geospatial Technical Advisor",
       "website": "https://www.fao.org",
-      "startDate": "2021-09-01",
+      "startDate": "2025-12-01",
       "endDate": "Present",
-      "summary": "",
+      "summary": "FAO SoilFER Project",
       "highlights": [
-        "Provide geospatial and remote sensing advisory support across FAO programmes in East Africa, with a focus on climate-smart agriculture and natural resource management.",
-        "Lead spatial data management, analysis, and capacity development initiatives supporting partner institutions and government ministries.",
-        "Design and maintain web-based geospatial portals and databases, ensuring datasets are documented, current, and accessible to stakeholders.",
-        "Facilitate training and on-the-job capacity building for national staff and line ministry partners on GIS, remote sensing, and field data collection.",
-        "Produce thematic maps, technical reports, and cartographic products to support evidence-based decision-making in food security and natural resource contexts.",
-        "Coordinate with government agencies, UN partners, and NGOs to define spatial data needs and contribute to national information management frameworks."
+        "Serving as lead geospatial advisor on the SoilFER project, overseeing soil sampling design, spatial data collection, and National Soil Information System (NSIS) development.",
+        "Developing a three-tier Decision Support System (DSS) providing advisory outputs at national level (policy and land use planning), regional level (extension services through nutrient budget maps, crop suitability maps, and soil property maps), and local level (farmer-facing advisory via SMS and the FerSIS app).",
+        "Leading national land cover mapping and generation of a national land cover legend to support soil-landscape characterisation.",
+        "Strengthening the capacity of government agencies and stakeholders including DRSRS and KALRO through targeted training on digital soil mapping, land cover assessment, and soil information systems \u2014 enhancing their ability to access, interpret, and apply spatial data in agricultural planning and decision-making.",
+        "Producing a suite of technical reports, thematic maps, and knowledge products covering crop suitability, land cover, and digital soil mapping to facilitate information sharing and evidence-based engagement with national and regional stakeholders."
+      ]
+    },
+    {
+      "company": "Food and Agriculture Organization of the United Nations (FAO)",
+      "position": "GIS and Remote Sensing Specialist",
+      "website": "https://www.faoswalim.org",
+      "startDate": "2021-09-01",
+      "endDate": "2024-12-31",
+      "summary": "FAO SWALIM, Somalia",
+      "highlights": [
+        "Led geospatial analysis and earth observation in support of food security monitoring, climate-smart agriculture, and natural resource management across Somalia.",
+        "Conducted forest and deforestation mapping using multi-temporal satellite imagery to support environmental monitoring and reporting.",
+        "Designed and delivered capacity development programmes for Somali line ministry staff and Information Management Centres on GIS, remote sensing, and spatial data management.",
+        "Managed spatial data systems, web-based geoportals, and thematic map production for FAO SWALIM partners and stakeholders.",
+        "Coordinated with government agencies, UN partners, and NGOs to define spatial data needs and contribute to national information management frameworks."
       ]
     },
     {
@@ -186,50 +187,6 @@
         "Trained staff and partners on natural resource data collection and geospatial analysis.",
         "Collaborated with NGOs and government bodies to support natural resource management policy."
       ]
-    },
-    {
-      "company": "GeoInfo Surveys Ltd",
-      "position": "GIS Assistant / Intern",
-      "startDate": "2015-05-04",
-      "endDate": "2015-12-31",
-      "summary": "",
-      "highlights": [
-        "Supported spatial data acquisition, quality assessment, and conversion from CAD and raster formats into GIS.",
-        "Verified cadastral plans, subdivision schemes, and survey records for land title and lease processing.",
-        "Maintained and updated geo-databases with defined schema, topology rules, and relationship classes.",
-        "Prepared cartographic products and reports using ArcMap, QGIS, PostGIS, and AutoCAD Map 3D."
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "OMDENA",
-      "website": "",
-      "position": "ML Engineer",
-      "startDate": "2022-01-01",
-      "endDate": "Present",
-      "summary": "Collaborator",
-      "highlights": [
-        "Food security mapping using AI",
-        "Crop mapping and identification using machine learning"
-      ]
-    },
-    {
-      "organization": "Humanitarian OpenStreetMap Team",
-      "website": "",
-      "position": "Mapper",
-      "startDate": "2021-02-12",
-      "endDate": "Present",
-      "summary": "Collaborator",
-      "highlights": [
-        "Mapping missing maps for Crowd2Map Tanzania"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
     }
   ],
   "advisory": [
