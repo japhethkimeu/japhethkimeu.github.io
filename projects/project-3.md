@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/annual_soil_loss.JPG
-title: Implementation of RUSLE method in Google Earth Engine to estimate soil loss
+title: "Soil Erosion Risk Assessment Using RUSLE in Google Earth Engine"
 permalink: projects/soil_loss_assessment
-# All dates must be YYYY-MM-DD format!
 date: 2022-12-04
 labels:
-  - Google Earth Engine
-  - JavaScript
-  - soil loss
+  - soil erosion
+  - RUSLE
   - land degradation
-summary: Estimating soil loss using RUSLE in Google Earth Engine.
+  - Google Earth Engine
+  - Somalia
+summary: "Estimating annual soil loss in North-Western Somalia using the RUSLE model implemented in Google Earth Engine to support land degradation neutrality and natural resource management."
 ---
 
 <div class="ui small rounded images">
