@@ -2,18 +2,16 @@
 layout: project
 type: project
 image: images/ndvi.png
-title: Mapping Potential Elephant Corridor using VHR Satellite Imagery and Telemetry Data
+title: "Wildlife Corridor Mapping for Human-Elephant Coexistence in Namibia"
 permalink: projects/elephant-movement
-
-# All dates must be YYYY-MM-DD format!
 date: 2024-07-02
 labels:
-  - Human-Wildlife conflict
-  - Conservation
-  - Elephant movement
-  - Wildlife corridor
+  - wildlife corridor
+  - human-wildlife conflict
   - Airbus Pleiades Neo
-summary: Exploring Elephant Movement Patterns using Geospatial Data
+  - conservation
+  - Satellites for Biodiversity
+summary: "Integrating VHR Airbus Pleiades Neo imagery, GPS collar telemetry, and multi-source geospatial data to identify elephant movement drivers and inform corridor design for the Elephant-Human Relations Aid (EHRA) organization."
 ---
 <img class="ui medium right floated rounded image" src="../images/elephant-movement.png">
 
