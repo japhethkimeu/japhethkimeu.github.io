@@ -2,18 +2,16 @@
 layout: project
 type: project
 image: crop_images/classification1.PNG
-title: Estimating crop production using remote sensing data
+title: "Crop Area Estimation and Yield Prediction Using Remote Sensing and Regression Modelling"
 permalink: projects/Crop-production
-
-# All dates must be YYYY-MM-DD format!
 date: 2023-05-05
 labels:
-  - crop production
+  - crop mapping
   - food security
-  - ndvi
-  - google earth engine
-  - remote sensing
-summary: Can remote sensing data be used to estimate crop acreage and yield?
+  - NDVI
+  - Sentinel-2
+  - climate-smart agriculture
+summary: "Using Sentinel-2 NDVI time-series and regression modelling to estimate planted crop area and predict yield for major crops in Cordoba, Argentina, as a scalable alternative to traditional field-based crop surveys."
 ---
 ## Introduction
 Crop production data such as acreage of planted crops and yield is important to government, stakeholders and farmers as it provides a basis of effective decision-making in the agriculture sector. Traditional methods of acquiring crop production data are tedious since they include extensive travel and various interpolation methods based on the sample taken. In most countries, government agencies and departments in the agriculture sector involve field officers in collecting these data through field visits to farmers and farms where they inquire about crop acreage and yield. Apart from being cumbersome, cost effective and lengthy, these methods are also too generalized and can't be fully relied upon.
