@@ -2,18 +2,16 @@
 layout: project
 type: project
 image: images/predict_1.PNG
-title: Detecting deforestation using deep learning algorithms
+title: "Deep Learning for Forest Cover Loss Detection Using Sentinel-2 Imagery"
 permalink: projects/deforestation_mapping
-
-# All dates must be YYYY-MM-DD format!
 date: 2023-01-24
 labels:
   - deforestation
-  - tensorflow
   - deep learning
-  - keras
-  - sentinel-2
-summary: Using deep learning algorithms to detect deforestation in satellite imagery
+  - CNN
+  - Sentinel-2
+  - forest monitoring
+summary: "Investigating the potential of deep learning models to detect forest loss from satellite imagery quickly and at scale, supporting forest governance and carbon accounting efforts."
 ---
 <img class="ui image" src="../images/predict_2.PNG">
 
