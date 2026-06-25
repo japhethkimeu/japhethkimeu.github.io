@@ -2,17 +2,16 @@
 layout: project
 type: project
 image: images/vhi_2022.PNG
-title: Drought monitoring using Vegetation Health Index in Google Earth Engine
+title: "Drought Early Warning in the Horn of Africa Using MODIS Time-Series in Google Earth Engine"
 permalink: projects/drought_monitoring
-# All dates must be YYYY-MM-DD format!
 date: 2022-09-25
 labels:
   - drought monitoring
-  - vegetation health index
-  - temperature
-  - modis
+  - food security
+  - MODIS
   - Google Earth Engine
-summary: Drought monitoring in Horn of Africa using time-series MODIS NDVI and temperature data in Google Earth Engine
+  - climate resilience
+summary: "Monitoring multi-year drought severity across East Africa using Vegetation Health Index derived from MODIS NDVI and Land Surface Temperature data to support food security early warning."
 ---
 ## Introduction
 Food insecurity and environmental degradation challenges have necessitated the need to study drought impacts in the world. In the horn of Africa, the last 6 years have experienced severe to extreme drought conditions due to the changing climatic conditions. This has had a huge impact on food and water availability leaving millions of people and livestock in danger of starvation. Various studies focusing on factors that greatly influence drought conditions such as rainfall, temperature and soil moisture have been done to examine and monitor the droughts in the region. Remote sensing time series data such as MODIS rainfall, NDVI and land surface temperature can be used to study the evolution of drought and inform decision makers on the necessary actions to take.
