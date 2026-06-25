@@ -1,0 +1,24 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.advisory %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Advisory &amp; Panel Roles</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    {% for entry in site.data.bio.advisory %}
+
+    <div class="ui grid">
+      <div class="sixteen wide column no-bottom">
+        <p class="ui no-bottom">
+          <b>{{ entry.role }}</b>, {{ entry.organization }}{% if entry.startDate %}, {{ entry.startDate }}{% if entry.endDate and entry.endDate != "" %} &ndash; {{ entry.endDate }}{% endif %}{% endif %}
+        </p>
+        <p class="ui">{{ entry.summary }}</p>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
