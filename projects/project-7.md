@@ -2,18 +2,16 @@
 layout: project
 type: project
 image: images/change12-22.PNG
-title: Temporal analysis of Lake Victoria basin wetlands 
+title: "Two-Decade Wetland Loss Analysis in the Lake Victoria Basin Using Landsat Time-Series"
 permalink: projects/wetland_change_detection
-
-# All dates must be YYYY-MM-DD format!
 date: 2023-03-25
 labels:
   - wetlands
-  - landsat
-  - google earth engine
-  - arcgis pro
-  - timeseries
-summary: Detecting changes in wetlands using Landsat time-series satellite imagery
+  - land cover change
+  - Landsat
+  - Google Earth Engine
+  - ecosystem restoration
+summary: "Detecting and quantifying wetland degradation across the Lake Victoria basin from 1999 to 2022 using multi-temporal Landsat imagery to inform ecosystem management and restoration policy in Uganda."
 ---
 
 ## Introduction
