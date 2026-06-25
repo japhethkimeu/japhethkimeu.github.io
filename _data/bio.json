@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Japheth Kimeu",
-    "label": "Geospatial Technical Advisor | FAO",
+    "label": "Geospatial Technical Advisor",
     "picture": "https://japhethkimeu.github.io/images/kim.png",
     "email": "kimeujeffer@gmail.com",
     "phone": "",
     "website": "https://japhethkimeu.github.io",
-    "summary": "I am a geospatial technical advisor with over 8 years of experience applying earth observation, GIS, and AI/ML to conservation, food security, and climate-smart agriculture across Africa. I currently serve as a Geospatial Technical Advisor at FAO and as GIS & Data Specialist at Connected Conservation Foundation, where I support decision-making across critical wildlife corridors and landscapes. My work spans spatial data systems, remote sensing, capacity development, and the translation of complex geospatial analysis into actionable insights for conservation and development stakeholders.",
+    "summary": "I am a Geospatial Technical Advisor with over 10 years of experience applying earth observation, GIS, and AI to conservation, nature-climate solutions, and climate-smart agriculture across Africa. I currently serve as a Geospatial Technical Advisor at FAO and as GIS & Data Specialist at Connected Conservation Foundation.",
     "location": {
       "address": "30470",
       "postalCode": "00100",
@@ -36,11 +36,11 @@
       "keywords": []
     },
     {
-      "name": "GeoAI & earth observation",
+      "name": "GeoAI",
       "keywords": []
     },
     {
-      "name": "biodiversity monitoring",
+      "name": "earth observation",
       "keywords": []
     },
     {
@@ -48,7 +48,7 @@
       "keywords": []
     },
     {
-      "name": "nature-based solutions",
+      "name": "nature-climate solutions",
       "keywords": []
     }
   ],
@@ -105,7 +105,12 @@
       "startDate": "2018-08-26",
       "endDate": "2020-07-24",
       "gpa": "8.5/10",
-      "courses": ["GIS", "Remote Sensing", "Machine Learning", "UAV for Earth Observation"]
+      "courses": [
+        "GIS",
+        "Remote Sensing",
+        "Machine Learning",
+        "UAV for Earth Observation"
+      ]
     },
     {
       "institution": "Technical University of Kenya",
@@ -114,7 +119,11 @@
       "startDate": "2011-01-11",
       "endDate": "2015-12-18",
       "gpa": "9/10",
-      "courses": ["GIS", "Remote Sensing", "Land Management"]
+      "courses": [
+        "GIS",
+        "Remote Sensing",
+        "Land Management"
+      ]
     }
   ],
   "work": [
