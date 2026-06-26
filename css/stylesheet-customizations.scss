@@ -158,3 +158,8 @@ footer p, footer a, footer span {
   box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
   cursor: pointer;
 }
+
+// Apply Poppins to all buttons including nav buttons in summary card
+.ui.button, .ui.buttons .button {
+  font-family: 'Poppins', sans-serif !important;
+}
