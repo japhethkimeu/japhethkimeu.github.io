@@ -1,15 +1,15 @@
 <!-- Used by theme-bio-builtin-1,2 -->
 
-<p class="ui no-bottom" style="display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center;">
+<p class="ui no-bottom" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 0.82em;">
 {% if site.data.bio.basics.website %}
   <a href="{{ site.data.bio.basics.website }}"><i class="home icon"></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a>
 {% endif %}
 {% if site.data.bio.basics.email %}
-  <span style="color:#ccc;">|</span>
+  &nbsp;<span style="color:#ccc;">|</span>&nbsp;
   <a href="mailto:{{ site.data.bio.basics.email }}"><i class="mail outline icon"></i>{{ site.data.bio.basics.email }}</a>
 {% endif %}
 {% for entry in site.data.bio.basics.profiles %}
-  <span style="color:#ccc;">|</span>
+  &nbsp;<span style="color:#ccc;">|</span>&nbsp;
   <a href="{{ entry.url }}"><i class="{{ entry.network | downcase }} icon"></i>{{ entry.username }}</a>
 {% endfor %}
 </p>
