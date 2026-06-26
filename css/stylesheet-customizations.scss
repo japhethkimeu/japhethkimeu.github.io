@@ -68,3 +68,26 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
+// Menubar — clean white with subtle shadow
+.ui.menu {
+  background: #ffffff !important;
+  border-bottom: 2px solid #e8e8e8 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+}
+
+.ui.menu .item {
+  color: #333 !important;
+  font-weight: 500;
+}
+
+.ui.menu .item:hover {
+  color: #2185d0 !important;
+  background: transparent !important;
+}
+
+// Footer link hover
+footer a:hover {
+  color: #ffffff !important;
+  transition: color 0.2s ease;
+}
