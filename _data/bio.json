@@ -70,20 +70,19 @@
         "Google Earth Engine",
         "ESRI ArcGIS Pro",
         "QGIS",
-        "ENVI",
-        "ERDAS IMAGINE"
+        "PostGIS"
       ]
     },
     {
-      "name": "Methods & Frameworks",
+      "name": "GeoAI & Machine Learning",
       "level": "",
       "keywords": [
-        "Deep Learning & CNNs",
-        "Random Forest & SVM",
-        "Land Use / Land Cover Change Detection",
-        "Corridor Modelling",
-        "REDD+ / MRV",
-        "UAV Data Processing"
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "Scikit-learn",
+        "OpenCV",
+        "Docker"
       ]
     },
     {
@@ -93,7 +92,16 @@
         "Power BI",
         "ArcGIS StoryMaps",
         "ODK / Survey123",
-        "PostGIS"
+        "KoBoToolbox",
+        "Tableau"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "",
+      "keywords": [
+        "AWS",
+        "GCP"
       ]
     }
   ],
