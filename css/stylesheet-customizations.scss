@@ -91,3 +91,14 @@ footer a:hover {
   color: #ffffff !important;
   transition: color 0.2s ease;
 }
+
+// Import Inter font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+// Apply Inter to summary description
+.ui.card .description {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: #444;
+}
