@@ -128,28 +128,28 @@
       "website": "https://www.fao.org",
       "startDate": "2025-12-01",
       "endDate": "Present",
-      "summary": "FAO SoilFER Project",
+      "summary": "FAO SoilFER Project, Kenya",
       "highlights": [
-        "Serving as lead geospatial advisor on the SoilFER project, overseeing soil sampling design, spatial data collection, and National Soil Information System (NSIS) development.",
-        "Developing a three-tier Decision Support System (DSS) providing advisory outputs at national level (policy and land use planning), regional level (extension services through nutrient budget maps, crop suitability maps, and soil property maps), and local level (farmer-facing advisory via SMS and the FerSIS app).",
-        "Leading national land cover mapping and generation of a national land cover legend to support soil-landscape characterisation.",
-        "Strengthening the capacity of government agencies and stakeholders including DRSRS and KALRO through targeted training on digital soil mapping, land cover assessment, and soil information systems \u2014 enhancing their ability to access, interpret, and apply spatial data in agricultural planning and decision-making.",
-        "Producing a suite of technical reports, thematic maps, and knowledge products covering crop suitability, land cover, and digital soil mapping to facilitate information sharing and evidence-based engagement with national and regional stakeholders."
+        "Leading design and implementation of geospatial and ML workflows for land cover mapping, climate-smart agriculture, and improved livelihoods across Kenya.",
+        "Developing crop suitability models and soil property maps integrating soil, climate, and terrain data to inform evidence-based agricultural planning and fertilizer recommendations.",
+        "Leading design and development of the National Soil Information System (NSIS) and a three-tier Decision Support System providing advisory outputs for policy, extension services, and smallholder farmers.",
+        "Producing technical reports, thematic maps, and knowledge products on crop suitability, land cover, and digital soil mapping to support stakeholder engagement at national and regional levels.",
+        "Strengthening capacity of government agencies including DRSRS and KALRO through targeted training on digital soil mapping, land cover assessment, and soil information systems."
       ]
     },
     {
-      "company": "Food and Agriculture Organization of the United Nations (FAO)",
-      "position": "GIS and Remote Sensing Specialist",
-      "website": "https://www.faoswalim.org",
-      "startDate": "2021-09-01",
-      "endDate": "2024-12-31",
-      "summary": "FAO SWALIM, Somalia",
+      "company": "Center for International Forestry Research \u2013 World Agroforestry Centre (CIFOR-ICRAF)",
+      "position": "Technical Lead, GIS & Remote Sensing",
+      "website": "https://www.cifor-icraf.org",
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-31",
+      "summary": "",
       "highlights": [
-        "Led geospatial analysis and earth observation in support of food security monitoring, climate-smart agriculture, and natural resource management across Somalia.",
-        "Conducted forest and deforestation mapping using multi-temporal satellite imagery to support environmental monitoring and reporting.",
-        "Designed and delivered capacity development programmes for Somali line ministry staff and Information Management Centres on GIS, remote sensing, and spatial data management.",
-        "Managed spatial data systems, web-based geoportals, and thematic map production for FAO SWALIM partners and stakeholders.",
-        "Coordinated with government agencies, UN partners, and NGOs to define spatial data needs and contribute to national information management frameworks."
+        "Led carbon baseline establishment and sequestration monitoring using satellite-derived biomass and vegetation indices, generating audit-ready evidence streams to support carbon credit issuance for smallholder restoration participants across East and Southern Africa.",
+        "Designed and operationalized digital MRV workflows generating spatial evidence of ecosystem service delivery including vegetation recovery, soil cover improvement, and land degradation reversal, supporting PES decisions and donor reporting.",
+        "Translated geospatial monitoring into credible verification reports, enabling investors to make timely financing and disbursement decisions within operational timelines.",
+        "Tracked and verified farmer activities across carbon, compliance, and ecosystem services by linking farmer enrolment and plot-level data to repeatable geospatial monitoring signals.",
+        "Implemented earth observation and machine learning monitoring across restoration sites, flagging underperforming areas and guiding field verification teams across six countries."
       ]
     },
     {
@@ -160,40 +160,40 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Lead geospatial analysis and earth observation work across a portfolio of critical wildlife corridors and conservation landscapes in Africa.",
+        "Lead geospatial analysis and earth observation work across a portfolio of critical wildlife corridors and conservation landscapes globally.",
         "Apply AI/ML and very high-resolution satellite imagery to biodiversity monitoring, habitat change detection, and invasive species mapping.",
         "Support the Interconnected Earth programme, designing spatial frameworks for ecologically linked landscape conservation across multiple sites.",
-        "Develop capacity development programmes for conservation practitioners on GIS, remote sensing, and spatial data tools.",
-        "Collaborate with the Airbus Foundation and conservation partners on imagery access, analysis pipelines, and programme design.",
-        "Serve as lead judge on the Satellites for Biodiversity Award, evaluating innovative uses of satellite data for conservation outcomes."
+        "Collaborate with the Airbus Foundation on the Satellites for Biodiversity programme, supporting imagery access, analysis pipelines, and programme design.",
+        "Serve as lead judge on the Satellites for Biodiversity Award, evaluating innovative uses of satellite data for conservation outcomes globally."
+      ]
+    },
+    {
+      "company": "Food and Agriculture Organization of the United Nations (FAO) \u2014 SWALIM",
+      "position": "GIS Specialist",
+      "website": "https://www.faoswalim.org",
+      "startDate": "2021-01-01",
+      "endDate": "2024-01-31",
+      "summary": "FAO Somalia Water and Land Information Management",
+      "highlights": [
+        "Conducted spatial assessments of GIS datasets to identify gaps and define requirements for land and forest monitoring across Somalia.",
+        "Coordinated multi-stakeholder partnerships with line ministries and UN agencies to align natural resource monitoring with drought response and sustainable land management.",
+        "Led capacity development through technical training on GIS, institutionalizing expertise in sustainable agriculture and food security within government ministries.",
+        "Produced policy-relevant maps and technical reports guiding land use planning, drought monitoring, and nature-based climate adaptation programmes.",
+        "Designed and implemented a national land monitoring dashboard enabling systematic tracking of deforestation, land degradation, and LULC change."
       ]
     },
     {
       "company": "County Government of Machakos",
-      "position": "Senior GIS and Remote Sensing Officer",
-      "startDate": "2020-08-22",
-      "endDate": "2021-08-31",
+      "position": "Senior GIS Officer",
+      "website": "",
+      "startDate": "2016-01-01",
+      "endDate": "2020-12-31",
       "summary": "",
       "highlights": [
-        "Led development and maintenance of spatial data repositories, geo-databases, and web-based portals for data dissemination.",
-        "Designed and deployed geospatial applications and dashboards using ArcGIS, QGIS, Python, Power BI, and JavaScript.",
-        "Analysed remote sensing imagery to map land use change, wetland degradation, and drought conditions using Google Earth Engine and ENVI.",
-        "Supervised and trained staff on GIS analysis, remote sensing, and spatial data management.",
-        "Collaborated with the National Land Commission and other agencies on county land information management systems."
-      ]
-    },
-    {
-      "company": "County Government of Machakos",
-      "position": "GIS Officer",
-      "startDate": "2016-01-11",
-      "endDate": "2020-08-21",
-      "summary": "",
-      "highlights": [
-        "Developed GIS and earth observation tools for mapping environmental change, land use, biodiversity, and food security.",
-        "Collected and processed spatial data from UAV, satellite imagery, and LiDAR sources alongside field surveys.",
-        "Built image classification and analysis workflows using Python, R, and machine learning methods.",
-        "Trained staff and partners on natural resource data collection and geospatial analysis.",
-        "Collaborated with NGOs and government bodies to support natural resource management policy."
+        "Established and managed county geospatial data systems supporting urban planning, land use, and environmental conservation.",
+        "Spearheaded design of the County Land Resources Management System, enhancing transparency in land resources mapping and environmental monitoring.",
+        "Delivered GIS-based tools and thematic maps to strengthen policy formulation on urban development and water resource management.",
+        "Coordinated inter-agency collaboration with the National Land Commission, aligning county spatial data systems with national land management frameworks."
       ]
     }
   ],
@@ -218,6 +218,30 @@
       "startDate": "2026",
       "endDate": "",
       "summary": "Discussing the role of earth observation and AI in advancing conservation outcomes across Africa's critical wildlife corridors and landscapes."
+    }
+  ],
+  "memberships": [
+    {
+      "organization": "International Society of Photogrammetry and Remote Sensing (ISPRS)",
+      "role": "Member"
+    },
+    {
+      "organization": "Group on Earth Observations Biodiversity Observation Network (GEO BON)",
+      "role": "Contributor"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Spatial Data Science: The New Frontier in Analytics",
+      "issuer": "ESRI"
+    },
+    {
+      "name": "Machine Learning",
+      "issuer": "Coursera"
+    },
+    {
+      "name": "Global Standard for Nature-based Solutions",
+      "issuer": "IUCN"
     }
   ]
 }
