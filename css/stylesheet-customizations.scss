@@ -69,21 +69,26 @@ body {
   line-height: 1.5;
 }
 
-// Menubar — clean white with subtle shadow
+// Menubar — warm orange/gold
 .ui.menu {
-  background: #ffffff !important;
-  border-bottom: 2px solid #e8e8e8 !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+  background: #C49A00 !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
 }
 
 .ui.menu .item {
-  color: #333 !important;
+  color: #ffffff !important;
   font-weight: 500;
 }
 
 .ui.menu .item:hover {
-  color: #2185d0 !important;
-  background: transparent !important;
+  color: #ffffff !important;
+  background: rgba(0,0,0,0.1) !important;
+}
+
+.ui.menu .brand.item {
+  color: #ffffff !important;
+  font-weight: 600;
 }
 
 // Footer link hover
