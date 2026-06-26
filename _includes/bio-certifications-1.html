@@ -7,9 +7,9 @@
   </div>
   <div class="fourteen wide column no-bottom">
     {% for entry in site.data.bio.certifications %}
-    <div class="ui grid">
+    <div class="ui grid" style="margin-bottom: 2px !important;">
       <div class="sixteen wide column no-bottom">
-        <p class="ui no-bottom"><b>{{ entry.name }}</b> &mdash; {{ entry.issuer }}</p>
+        <p class="ui no-bottom" style="margin: 0; padding: 0; line-height: 1.4;"><b>{{ entry.name }}</b> &mdash; {{ entry.issuer }}</p>
       </div>
     </div>
     {% endfor %}
