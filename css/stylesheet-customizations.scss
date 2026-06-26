@@ -69,9 +69,9 @@ body {
   line-height: 1.5;
 }
 
-// Menubar — warm orange/gold
+// Menubar — deep teal
 .ui.menu {
-  background: #C49A00 !important;
+  background: #1a5276 !important;
   border-bottom: none !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
 }
@@ -79,11 +79,12 @@ body {
 .ui.menu .item {
   color: #ffffff !important;
   font-weight: 500;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .ui.menu .item:hover {
   color: #ffffff !important;
-  background: rgba(0,0,0,0.1) !important;
+  background: rgba(0,0,0,0.12) !important;
 }
 
 .ui.menu .brand.item {
@@ -145,4 +146,15 @@ h3 {
 // Footer elements
 footer p, footer a, footer span {
   font-family: 'Poppins', sans-serif !important;
+}
+
+// Hover zoom effect for project and app cards
+.ui.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.ui.card:hover {
+  transform: translateY(-6px) scale(1.02) !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
+  cursor: pointer;
 }
