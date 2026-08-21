@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Japheth Kimeu",
-    "label": "Geospatial Technical Advisor",
+    "label": "Geospatial Technical Lead",
     "picture": "https://japhethkimeu.github.io/images/kim.png",
     "email": "kimeujeffer@gmail.com",
     "phone": "",
     "website": "https://japhethkimeu.github.io",
-    "summary": "I am a Geospatial Technical Advisor with over 10 years of experience applying earth observation, GIS, and AI to conservation, nature-climate solutions, and climate-smart agriculture across Africa. I currently serve as a Geospatial Technical Advisor at FAO and as GIS & Data Specialist at Connected Conservation Foundation.",
+    "summary": "I am a Geospatial Technical Lead with over 10 years of experience applying earth observation, GIS, and AI to conservation, nature-climate solutions, and sustainable agrifood systems across Africa. I currently serve as a Geospatial & AI Lead at FAO and as a GIS & Data Specialist at Connected Conservation Foundation.",
     "location": {
       "address": "30470",
       "postalCode": "00100",
@@ -124,7 +124,7 @@
   "work": [
     {
       "company": "Food and Agriculture Organization of the United Nations (FAO)",
-      "position": "Geospatial Technical Advisor",
+      "position": "Technical Lead - Geospatial & AI",
       "website": "https://www.fao.org",
       "startDate": "2025-12-01",
       "endDate": "Present",
