@@ -1,6 +1,6 @@
-# Japheth Kimeu | Geospatial Technical Advisor
+# Japheth Kimeu | Geospatial Technical Lead
 
-**Geospatial Technical Advisor at FAO | GIS & Data Specialist at Connected Conservation Foundation**
+**Geospatial Technical Lead at FAO**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://japhethkimeu.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/kimeujapheth)
@@ -11,7 +11,7 @@
 
 This is the source repository for my professional portfolio site at [japhethkimeu.github.io](https://japhethkimeu.github.io).
 
-I am a Geospatial Technical Advisor with over 10 years of experience applying earth observation, GIS, and AI to conservation, nature-climate solutions, and climate-smart agriculture across Africa. I currently serve as a Geospatial Technical Advisor at FAO and as GIS & Data Specialist at Connected Conservation Foundation.
+I am a Geospatial Technical Lead with over 10 years of experience applying earth observation, GIS, and AI to conservation, nature-climate solutions, and sustainable agrifood systems across Africa. I currently serve as a Geospatial & AI Lead at FAO and as a GIS & Data Specialist at Connected Conservation Foundation.
 
 ---
 
