@@ -9,18 +9,29 @@
   <meta name="author" content="Japheth Kimeu">
   <meta name="keywords" content="geospatial, remote sensing, GIS, earth observation, GeoAI, conservation, FAO, climate-smart agriculture, nature-based solutions, Africa, wildlife corridor, biodiversity">
 
-  <!-- Open Graph / LinkedIn / Social Sharing -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://japhethkimeu.github.io">
-  <meta property="og:title" content="Japheth Kimeu | Geospatial Technical Lead">
-  <meta property="og:description" content="Geospatial & AI Technical Lead at FAO and GIS & Data Specialist at Connected Conservation Foundation. Earth observation, GeoAI, conservation technology, and nature-climate solutions across Africa.">
-  <meta property="og:image" content="https://japhethkimeu.github.io/images/kim.png">
+  <!-- Open Graph / LinkedIn / Social Sharing: per-page, falls back to site defaults -->
+  {% assign share_title = "Japheth Kimeu | Geospatial Technical Lead" %}
+  {% if page.title and page.url != "/" %}{% assign share_title = page.title | append: " | Japheth Kimeu" %}{% endif %}
+  {% assign share_desc = "Geospatial & AI Technical Lead at FAO and GIS & Data Specialist at Connected Conservation Foundation. Earth observation, GeoAI, conservation technology, and nature-climate solutions across Africa." %}
+  {% if page.summary %}{% assign share_desc = page.summary %}{% endif %}
+  {% assign share_image = site.url | append: "/images/kim.png" %}
+  {% if page.image %}
+    {% if page.image contains "://" %}{% assign share_image = page.image %}{% else %}{% assign share_image = site.url | append: "/" | append: page.image %}{% endif %}
+  {% endif %}
+  {% assign share_url = page.url | replace: "index.html", "" | prepend: site.url %}
+  <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
+  <meta property="og:site_name" content="Japheth Kimeu">
+  <meta property="og:url" content="{{ share_url }}">
+  <meta property="og:title" content="{{ share_title | escape }}">
+  <meta property="og:description" content="{{ share_desc | strip_html | escape }}">
+  <meta property="og:image" content="{{ share_image }}">
+  <link rel="canonical" href="{{ share_url }}">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Japheth Kimeu | Geospatial Technical Lead">
-  <meta name="twitter:description" content="Geospatial & AI Technical Lead at FAO and GIS & Data Specialist at Connected Conservation Foundation.">
-  <meta name="twitter:image" content="https://japhethkimeu.github.io/images/kim.png">
+  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+  <meta name="twitter:title" content="{{ share_title | escape }}">
+  <meta name="twitter:description" content="{{ share_desc | strip_html | escape }}">
+  <meta name="twitter:image" content="{{ share_image }}">
 
   <title>
     {% if page.title %}
