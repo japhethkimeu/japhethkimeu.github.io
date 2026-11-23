@@ -11,27 +11,35 @@ labels:
   - Airbus Pleiades Neo
   - conservation
   - Satellites for Biodiversity
-summary: "Integrating VHR Airbus Pleiades Neo imagery, GPS collar telemetry, and multi-source geospatial data to identify elephant movement drivers and inform corridor design for the Elephant-Human Relations Aid (EHRA) organization."
+summary: "Turned Airbus Pléiades Neo imagery and 27,000+ GPS collar fixes into the maps that EHRA, farmers and Namibia's Ministry of Environment used to plan corridors, validate conflict hotspots and agree on mitigation priorities."
 ---
 <img class="ui medium right floated rounded image" src="../images/elephant-movement.png">
 
-This project aims to identify the factors motivating the movement of African Elephants in Kunene and Erongo regions of Namibia using various geospatial data. The data includes
-- Topography (slope)
-- NDVI as a proxy for vegetation health
-- Rivers
-- Fencelines
-- Population density
-- Water points
-- Elephant telemetry (collar) data
+## Impact at a glance
+- **From analysis to agreement:** EHRA took the movement and conflict maps into community workshops and joint meetings with commercial farmers and the Ministry of Environment, Forestry and Tourism (MEFT). There, farmers validated conflict hotspots, water points and fences through participatory mapping.
+- **Fairer prioritisation:** Communal farmers, conservancies and traditional authorities used the maps to agree which mitigation projects to fund first.
+- **Land set aside for elephants:** On Otjongoro Farm, the collar and satellite data showed heavy use of a natural spring. The farmer agreed to give that area over to elephants in exchange for protection of the rest of the farm. EHRA fenced off an "elephant corner", and the elephants have started using it.
+- **Foundation for corridor design:** The outputs underpin EHRA's wildlife corridor planning, its EarthRanger live-tracking platform for farmers, and its Ethical Elephant Tourism campaign.
 
-The Elephant-Human Relations Aid (EHRA) organization, based in Namibia, is dedicated to mitigating human-elephant conflicts and fostering peaceful coexistence between humans and elephants. Their current initiative focuses on delineating a wildlife corridor to alleviate issues caused by elephants straying into commercial farms in search of food and water.
-EHRA was recognized as one of the winners of the Satellite for Biodiversity Awards 2023, a program run by the Connected Conservation Foundation in collaboration with the Airbus Foundation. As part of this award, Airbus provided very high-resolution (VHR) Pleiades satellite imagery to all winners.
-In this project, I conducted a Land Use and Land Cover (LULC) analysis using 30cm Pleiades Neo imagery along with elephant collar data provided by EHRA. The analysis was performed in Google Earth Engine, integrating these data with other geospatial datasets to explore and understand elephant movement patterns within the study area. This work aims to support the creation of effective wildlife corridors and contribute to reducing human-wildlife conflict in the region.
+Read the full case study: [Using satellite imagery to build the foundation of elephant corridors in Namibia](https://connectedconservation.foundation/ecosystem-insights-hub/using-satellite-imagery-to-build-foundation-of-elephant-corridors-in-namibia/) (Connected Conservation Foundation).
 
-Based on the analysis, the movement of elephants across the landscape was primarily influenced by the availability of water sources and the presence of vegetation. Between January and April 2024, the elephants frequently visited specific water points in the study area, demonstrating their reliance on these sources for hydration. Additionally, the Normalized Difference Vegetation Index (NDVI) analysis revealed that the elephants were attracted to areas with healthy vegetation, particularly along river channels where lush growth was prevalent.
+## The problem
+In Namibia's Kunene and Erongo regions, desert-adapted elephants range into commercial farmland in search of water and forage. They break fences and damage crops and infrastructure, and some farmers respond with lethal measures. Elephant-Human Relations Aid (EHRA) needed evidence of *why* elephants move where they do, so it could design a corridor that both farmers and elephants could live with.
 
-The analysis also showed that the terrain played a significant role in their movement patterns. Elephants tended to avoid steep slopes, with 90% of their movements occurring in gentler areas. High population density and deep areas along rivers were other factors that the elephants avoided. Furthermore, the presence of fences was a notable restriction on their movement, although in some instances, the elephants breached commercial farms by damaging the fences.
+EHRA was a winner of the 2023 Satellites for Biodiversity Awards, run by the Connected Conservation Foundation with the Airbus Foundation. Through the award, I provided the geospatial and Earth observation analysis.
 
-EHRA plans to use these insights to establish a wildlife corridor in the area. This corridor will aim to mitigate conflicts by reducing incidents of elephants destroying fences, crops, and structures, and to decrease the frequency of farmers taking extreme measures against straying animals. By addressing these challenges, EHRA seeks to enhance coexistence between elephants and local communities.
+## What the data showed
+- **Water drives movement.** Between January and April 2024, elephants returned repeatedly to specific water points, including man-made ones.
+- **Vegetation pulls them along rivers.** NDVI showed a strong preference for healthy vegetation, especially along river channels.
+- **Terrain constrains them.** 90% of movements occurred on gentle slopes. Elephants avoided steep ground, densely populated areas and deep river sections.
+- **Fences redirect but don't stop them.** Elephants followed fence lines when blocked but sometimes breached commercial farms by damaging fences. These are exactly the points where conflict occurs.
+
+## How it works
+30 cm Airbus Pléiades Neo imagery (about 73 × 32 km), classified into land cover and habitat maps in Google Earth Engine. These were combined with 10 GPS collars (27,167 hourly fixes, January–April 2024) and layers for slope, NDVI, rivers, fencelines, population density and water points to test what drives elephant movement.
+
+## What's next
+EHRA plans to extend the analysis into the wet season with annual data for corridor planning. It also plans to develop a machine-learning tool to detect man-made water points across a wider area.
+
+Explore the data: [Elephant Movement app](https://kimeu.users.earthengine.app/view/elephant-movement)
 
 Source: <a href="https://github.com/japhethkimeu/elephant-movement"><i class="large github icon"></i>elephant-movement</a>

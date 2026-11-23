@@ -11,40 +11,22 @@ labels:
   - CNN
   - Sentinel-2
   - forest monitoring
-summary: "Investigating the potential of deep learning models to detect forest loss from satellite imagery quickly and at scale, supporting forest governance and carbon accounting efforts."
+summary: "Forest clearing detected automatically with 91% accuracy across Brazil's Mato Grosso frontier, the kind of model that turns every new Sentinel-2 pass into a deforestation alert without anyone digitising a map by hand."
 ---
 <img class="ui image" src="../images/predict_2.PNG">
 
-## Introduction
-Deforestation is one of the major contributing factor to climate change. Vegetation loss has led to changing climatic conditions that have been witnessed all over the world. In Brazil, it’s estimated that over 500,000 square kilometres of natural vegetation have been cut down in the last 50 years. Serious interventions are needed to curb this trend. Satellite imagery analysis is one of the ways we can detect and monitor deforestation. In this project, I have analysed Sentinel-2 imagery of three regions in the State of MatoGrosso in Brazil and derived image chips using ArcGIS Pro to train a deep learning (CNN) model to detect deforestation.
+## What it delivers
+**Forest loss, mapped automatically, 91% of the time correctly.** Given a Sentinel-2 scene, the model outlines where forest has been cleared, with no analyst drawing the boundaries. On imagery it had never seen, it got 91.2% of pixels right.
 
-## Requirements
-        - tensorflow
-        - keras
-        - numpy
-        - matplotlib
-        - pandas
-        - cv2
-        
-## Methodology
-I analysed Sentinel-2 images (cloud free) of three different regions in the State of Mato Grosso in Brazil and derived a total of 5,122 image chips and masks of size ***256 * 256***. The dataset was sampled into training and validation. Data augmentation was used where the images were flipped before being fed to the network for training. I used a U-Net model that consisted of encoder and decoder. The feature extraction/encoder was implemented using MobileNetV2 with pre-trained weights to enable earning of robust features and reduce trainable parameters. The decoder consisted of 4 layers and a final prediction layer with sigmoid activation.
-
-<img class="ui image" src="../images/u-net-architecture.png">
-
-More on Unet model [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
-
-## Training
-The model was trained first using the pre-trained weights of the base model for 15 epochs with early stopping. The best result was achieved by re-training the whole model for 20 epochs and attained a binary accuracy of 0.9780.
-        
-## Results
-The model prediction accuracy was 0.912. The accuracy can be improved by using other annotation methods to improve the quality of masks.
-
-<img class="ui image" src="../images/predict_2.PNG">
+Brazil has lost over 500,000 km² of natural vegetation in 50 years, much of it on the Mato Grosso frontier. Satellites already pass every few days. What slows down monitoring is turning those images into maps someone can act on. A model like this closes that gap. Forest agencies, REDD+ projects and carbon programmes get a forest loss map every time new imagery arrives, so they can respond to clearing while it is still happening instead of documenting it months later.
 
 <img class="ui image" src="../images/predict_3.PNG">
 
-## Conclusion
-Remote sensing data and deep learning models such as Convolutional Neural Networks can effectively map and detect deforestation. This can be used by stakeholders and agencies to control and monitor environmental degradation practices such as deforestation.
+## How it works
+A U-Net deep learning model with a MobileNetV2 encoder, trained on 5,122 labelled Sentinel-2 image chips (256 × 256 px) from three regions of Mato Grosso, built in TensorFlow/Keras. Fine-tuning the full network reached 97.8% accuracy in training and 91.2% on held-out data. Better-quality training masks are the clearest route to pushing accuracy higher.
+
+<img class="ui image" src="../images/u-net-architecture.png">
+
+More on U-Net: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 
 Source: <a href="https://github.com/japhethkimeu/deep_learning"><i class="large github icon"></i>deforestation</a>
-

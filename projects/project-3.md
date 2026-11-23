@@ -11,15 +11,21 @@ labels:
   - land degradation
   - Google Earth Engine
   - Somalia
-summary: "Estimating annual soil loss in North-Western Somalia using the RUSLE model implemented in Google Earth Engine to support land degradation neutrality and natural resource management."
+summary: "North-Western Somalia is losing an average of 36 tonnes of soil per hectare every year, concentrated on its steep highlands. The analysis shows land managers where conservation will save the most soil, and later became a public erosion app."
 ---
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/combined.PNG">
  </div>
 
+## What it shows
+**North-Western Somalia loses an average of 36 tonnes of soil per hectare every year.** The losses are far from evenly spread: they concentrate on the steep mountainous and hilly terrain, where rainfall washes topsoil off exposed slopes.
 
-Revised Universal Soil Loss Equation (RUSLE) developed by Renard et al. (1996) is one of the methods used in estimating soil loss. In this project, I implemented RUSLE in GEE to estimate annual soil loss in North-Western Somalia. RUSLE is described by A = R * K * LS * C * P, where, A is the mean annual soil loss in metric tonnes/ha/year, R is rainfall erosivity factor, K is soil erodibility factor, LS is slope length-steepness factor, C is cover and management factor and P is erosion management factor. The mean annual soil loss in the study area is 36.05 t/ha/yr. Steep sloping areas especially the mountanious/hilly (see soil loss map) areas have the highest soil loss rates in the region. More about RUSLE https://handle.nal.usda.gov/10113/11126.
+That gives land managers a clear starting point. Soil and water conservation works best on the slopes that are losing the most. The map shows where those slopes are, which supports land degradation neutrality targets and natural resource planning in a region where field data is scarce.
+
+The analysis didn't stop at one region. I turned it into a public [Soil Erosion Risk Estimation app](https://ee-kimeu.projects.earthengine.app/view/soil-erosion-estimation) that anyone can run for their own area.
+
+## How it works
+The Revised Universal Soil Loss Equation (RUSLE; Renard et al. 1996), **A = R × K × LS × C × P**, implemented in Google Earth Engine. It combines rainfall erosivity, soil erodibility, slope length-steepness, cover management and support practice into annual soil loss in t/ha/yr. More about RUSLE: https://handle.nal.usda.gov/10113/11126.
 
 Source: <a href="https://github.com/japhethkimeu/soil_loss_assessment"><i class="large github icon "></i>soil_loss_assessment</a>
-

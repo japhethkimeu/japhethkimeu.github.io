@@ -11,13 +11,19 @@ labels:
   - MODIS
   - Google Earth Engine
   - climate resilience
-summary: "Monitoring multi-year drought severity across East Africa using Vegetation Health Index derived from MODIS NDVI and Land Surface Temperature data to support food security early warning."
+summary: "Pinpointed where the 2022 long-rains drought hit hardest across the Horn of Africa, with severe to extreme conditions in Eritrea, Djibouti, Somalia, Ethiopia and north-eastern Kenya, ranked against 13 seasons of satellite record."
 ---
-## Introduction
-Food insecurity and environmental degradation challenges have necessitated the need to study drought impacts in the world. In the horn of Africa, the last 6 years have experienced severe to extreme drought conditions due to the changing climatic conditions. This has had a huge impact on food and water availability leaving millions of people and livestock in danger of starvation. Various studies focusing on factors that greatly influence drought conditions such as rainfall, temperature and soil moisture have been done to examine and monitor the droughts in the region. Remote sensing time series data such as MODIS rainfall, NDVI and land surface temperature can be used to study the evolution of drought and inform decision makers on the necessary actions to take.
+## What it shows
+**2022 was a regional drought, not a local one.** Vegetation health during the March–June long rains fell to severe or extreme levels across almost the entire Horn of Africa. The worst and most prolonged conditions were in Eritrea, Djibouti, Somalia, Ethiopia and north-eastern Kenya.
 
-## Methodology
-In this project, I analysed MODIS Normalized Difference Vegetation Index (NDVI) and Land Surface Temperature (LST) datasets to assess vegetation health using the Vegetation Health Index (VHI) in the region from 2010 to 2022 for long rains season between March and June every year. VHI is computed using Vegetation Condition Index (VCI) and Temperature Condition Index (TCI). VCI and TCI formulas are shown below.
+Repeated failed rains have left millions of people and livestock in the region facing hunger and water shortages. Responders need more than "it is dry". They need to know where it is worst and how this season compares with others, so food, water and livestock support goes to the right places first. These maps answer both questions. Because they are built from free satellite data, they can be refreshed every season to give early-warning teams a consistent signal to act on.
+
+<img class="ui image" src="../images/combined_vhi.PNG">
+
+![](https://github.com/japhethkimeu/japhethkimeu.github.io/blob/main/images/vhi.gif)
+
+## How it works
+The Vegetation Health Index (VHI) for every long-rains season from 2010 to 2022, computed in Google Earth Engine from MODIS NDVI and land surface temperature. VHI combines how green vegetation is (Vegetation Condition Index) with how much heat stress it is under (Temperature Condition Index), each relative to its own historical range.
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/vci.PNG">
@@ -25,17 +31,4 @@ In this project, I analysed MODIS Normalized Difference Vegetation Index (NDVI) 
   <img class="ui image" src="../images/tci.PNG">
 </div>
 
-## Results
-The year 2022 experienced severe to extreme drought in almost all countries in the region. Eritrea, Djibouti, Somalia, North-Eastern Kenya and Ethiopia have been experiencing prolonged drought during the long rains season.
-
-<img class="ui image" src="../images/combined_vhi.PNG">
-
-![](https://github.com/japhethkimeu/japhethkimeu.github.io/blob/main/images/vhi.gif)
-## Conclusion
-This information is quite useful to stakeholders, partners, farmers, and governments in tackling food insecurity and vegetation loss in the wake of climate change.
-
 Source: <a href="https://github.com/japhethkimeu/droughtmonitoring"><i class="large github icon"></i>droughtmonitoring</a>
-
-
-
-

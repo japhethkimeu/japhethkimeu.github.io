@@ -11,28 +11,19 @@ labels:
   - Landsat
   - Google Earth Engine
   - ecosystem restoration
-summary: "Detecting and quantifying wetland degradation across the Lake Victoria basin from 1999 to 2022 using multi-temporal Landsat imagery to inform ecosystem management and restoration policy in Uganda."
+summary: "Over 14,000 hectares of Lake Victoria wetlands around Kampala lost to urban growth and farming in 20 years, with most of the loss after 2012. Evidence to target Uganda's wetland protection and restoration."
 ---
 
-## Introduction
-Lake Victoria wetlands have faced a myriad of threats arising from human activities such as pollution, overfishing, encroachment by people for agricultural activities and settlement. Wetlands provide food, water for human consumption and agriculture, provide a home to various animals and bird species that contribute to a rich biodiversity, and also play vital ecological functions such as flood mitigation and water purification. 
-In Uganda, there has been efforts to protect and restore degraded wetlands through enforcement of wetland management policies and engaging relevant stakeholders. Information generated from satellite imagery analysis including wetland change maps is vital in making decisions and generating effective and sustainable wetland resource management policies as well as deliberating on ways of mitigating the loss of these vital ecosystems.
+## What it shows
+**Kampala's growth has swallowed more than 14,000 hectares of Lake Victoria wetlands in two decades.** Between 2002 and 2022, wetlands were converted to urban land and cropland. The loss accelerated sharply after 2012, as the city expanded under population pressure. In the same decade the city also absorbed much of the surrounding cropland.
 
-## Methodology
-Time series remote sensing data from the Landsat series available since the early 1980s was used in this study. I analysed Landsat imagery of the study area for three periods spanning 20 years from 1999 to 2022. I sampled cloud-free images for each period and computed the median image in a specific period of 4 years. The images included Landsat 7 (1999 - 2002), Landsat 5 (2009 - 2012), and Landsat 8 (2019 - 2022). The three images were analysed as follows:
- * Extracting features to improve classification. The spectral features include NDVI, NDWI, and EVI.
- * Image classification
- * Change detection using the classified images
- * Computation of change areas
+These wetlands supply food and water, shelter rich bird and animal life, buffer floods and purify water. Uganda is trying to protect and restore them through policy enforcement and stakeholder engagement, but regulators can't act on loss they can't see. These maps show where wetlands have disappeared and how fast, so enforcement and restoration can be aimed at the places under most pressure. Because the method uses the free Landsat archive, it can be repeated to check whether protection is working.
+
+<img class="ui image" src="../images/wetland_changes.PNG">
 
 <img class="ui image" src="../images/wetland_classified.PNG">
 
-## Results
-Results show that over 14,000 hectares of wetlands were converted to urban and cropland between 2002 and 2022. The biggest wetland changes were observed between 2012 and 2022 as Kampala city expanded due to population pressure. Additionally, between 2012 and 2022, there was a substantial loss of cropland areas around the city.
-
- 
-<img class="ui image" src="../images/wetland_changes.PNG">
+## How it works
+Cloud-free Landsat median composites for three periods (1999–2002, 2009–2012, 2019–2022), enriched with NDVI, NDWI and EVI and classified into land cover in Google Earth Engine. The three maps were then compared to measure the area of each type of change.
 
 Source: <a href="https://github.com/japhethkimeu/wetlands-change-detection"><i class="large github icon"></i>Wetlands change detection</a>
-
-

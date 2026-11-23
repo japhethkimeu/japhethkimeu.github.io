@@ -11,14 +11,19 @@ labels:
   - Random Forest
   - Sentinel-2
   - soil erosion
-summary: "Can machine learning reliably identify gully features from satellite imagery to support land restoration and soil conservation programmes?"
+summary: "Gullies, the most destructive form of soil erosion, mapped from free satellite imagery, so restoration programmes can find their worst-eroding land without walking every hillside."
 ---
 
 <img class="ui medium right floated rounded image" src="../images/Classified11.JPG">
 
-The United Nations Convention to Combat Desertification (UNCCD) estimates that two thirds of productive land in Africa is degraded (UNCCD 2013). Soil degradation is one of the major forms of land degradation and occurs through water erosion, wind erosion, chemical and physical deterioration. According to Jones et al. (2013), water erosion accounts for forty six percent of land degradation in sub-Saharan Africa. In most tropical regions of Africa, water erosion is accelerated by deforestation, population increase, and flooding due to heavy rainfall incidents. Water erosion manifests in various forms; sheet, rill and gully erosions. Sheet erosion occurs through surface run-off washing away considerable amount of nutrients from top soil thereby rendering it unproductive. In cases where massive water quantities flow down susceptible sloping and gentle terrain, rill and gully erosion occurs. Gully erosion is the most destructive form of soil erosion since it can remove and transport huge quantities of soil (Daba, Rieger, and Strauss 2003).
-Machine-learning algorithms have become common in remote sensing tasks such as image classification. I carried out a binary classification (i.e. gully and no gully) of satellite imagery using Random Forest and Support Vector Machines. Random forest is an ensemble learning algorithm based on the idea that a combination of bootstrap aggregated classifiers perform better than a single classifier (Breiman 2001). The bootstrap component means that each individual tree is parameterized using a randomly sampled set of observations with replacement from the training data (Hastie, Tibshirani, and Friedman 2009). Support Vector Machines were introduced by (Vapnik 1982). SVM algorithm finds the optimum minimization, i.e. decision boundary, of ambiguous classifier outputs in a problem space. This decision boundary is referred to as the hyperplane and it distinguishes the classification problem into a predefined set of classes that are consistent with the training data. The algorithm undergoes an iterative process of finding the optimum hyperplane boundary in an n-dimensional classification space to distinguish patterns in the training data then apply the same configuration to a separate evaluation dataset.
-The data required for the study includes satellite imagery and reference data. Sentinel 2 imagery was downloaded from https://scihub.copernicus.eu/dhus/#/home as Level 1C TOA processing format without atmospheric correction. I used SNAP Sen2Cor to correct atmospheric effects by converting Level 1C to Level 2A BOA. Training and validation samples were digitized in a GIS environment.
+## What it delivers
+**A map of where land is being torn apart by gully erosion, made from satellite imagery instead of field surveys.**
+
+About two-thirds of Africa's productive land is degraded (UNCCD 2013). Water erosion accounts for 46% of land degradation in sub-Saharan Africa (Jones et al. 2013). Gullies are its most severe form: they strip away huge volumes of soil and cut farmland out of production (Daba, Rieger and Strauss 2003). Restoration and soil conservation programmes need to know where gullies are before they can target check dams, revegetation or land-use changes. Finding them on foot is slow and doesn't scale.
+
+This project shows that freely available Sentinel-2 imagery and machine learning can do that job. It produces gully maps at landscape scale that programmes can use to target restoration investment and report progress toward land degradation neutrality.
+
+## How it works
+Sentinel-2 imagery, atmospherically corrected with Sen2Cor, classified into gully and no-gully using Random Forest and Support Vector Machines. Both models were trained and validated on digitised reference samples.
 
 Source: <a href="https://github.com/japhethkimeu/gully_feature_mapping"><i class="large github icon"></i>gully_feature_mapping</a>
-

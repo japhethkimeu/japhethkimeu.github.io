@@ -11,23 +11,17 @@ labels:
   - Sentinel-2
   - Google Earth Engine
   - humanitarian
-summary: "Assessing the human and agricultural toll of extreme flooding in Piura Province, Peru, using satellite-derived flood extent mapping to support disaster response and climate adaptation planning."
+summary: "More than 16,000 people affected and 877 hectares of cropland under water: a rapid damage assessment of the 2021 Piura floods in Peru, produced from free satellite imagery without a single field visit."
 ---
 
-## Introduction
-Flooding in South America has increased in the last decade due to changing climatic conditions. In Peru, El Nino like conditions of heavy rainfall have been witnessed recently. In March 2021, severe flooding damaged more than 3000 homes killing dozens of people in various provinces. In this project, I apply the modified normalized difference water index on sentinel 2 imagery to detect flooding in Piura Province, Peru. I also carry out an indepth assessment of the damage caused by the floods to people and crops. 
+## What it shows
+**The March 2021 floods in Piura Province, Peru, put more than 16,000 people's homes under water and drowned over 877 hectares of cropland.** Farmland was the hardest-hit land use.
 
-## Methodology
-Sentinel-2 images of the study area were used in this study. Before and after flood images were analysed in Google Earth Engine and used to compute the modified normalized water index. Population data was obtained from Global Human Settlement Layer (GHSL) while land cover and land use data was obtained from MODIS/ESA. The data was analsed as follows;
-* Computing _MNDWI_ using S2 imagery and threshold to obtain a flood mask
-* Determine flood extent from flood mask
-* Determine population affected using flood mask & GHSL population layer
-* Compute cropland affected using flood mask & cropland layer
+El Niño-like rains that month damaged more than 3,000 homes and killed dozens of people across several Peruvian provinces. In the first days after a disaster, responders can't wait for field teams to tell them who is affected and where. This assessment gives those answers from satellite imagery alone: the flood footprint, the people inside it, and the crops lost. Relief, recovery and agricultural support can then go where the damage actually is. The same approach works for any flood with clear-sky imagery.
 
  <img class="ui image" src="../images/combined_flood.PNG">
- 
-## Results
-Agricultural areas were the most affected with over 877 hectares of cropland covered by flood water. More than 16,000 people were displaced and their houses damaged by the floods.
 
-source: <a href="https://github.com/japhethkimeu/flood_analysis"><i class="large github icon"></i>flood analysis</a>
+## How it works
+Before-and-after Sentinel-2 imagery compared in Google Earth Engine. A Modified Normalised Difference Water Index (MNDWI) flood mask is overlaid on the Global Human Settlement Layer to count affected people, and on MODIS/ESA land cover to measure affected cropland.
 
+Source: <a href="https://github.com/japhethkimeu/flood_analysis"><i class="large github icon"></i>flood analysis</a>
