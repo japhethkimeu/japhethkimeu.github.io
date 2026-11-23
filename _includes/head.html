@@ -11,7 +11,7 @@
 
   <!-- Open Graph / LinkedIn / Social Sharing: per-page, falls back to site defaults -->
   {% assign share_title = "Japheth Kimeu | Geospatial Technical Lead" %}
-  {% if page.title and page.url != "/" %}{% assign share_title = page.title | append: " | Japheth Kimeu" %}{% endif %}
+  {% if page.title and page.url != "/" %}{% assign share_title = page.title %}{% endif %}
   {% assign share_desc = "Geospatial & AI Technical Lead at FAO and GIS & Data Specialist at Connected Conservation Foundation. Earth observation, GeoAI, conservation technology, and nature-climate solutions across Africa." %}
   {% if page.summary %}{% assign share_desc = page.summary %}{% endif %}
   {% assign share_image = site.url | append: "/images/kim.png" %}
